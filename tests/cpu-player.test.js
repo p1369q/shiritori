@@ -1,0 +1,17 @@
+const assert = require('assert');
+global.window = global; global.MANABI_DATA = {};
+delete require.cache[require.resolve('../data/prefectures.js')];
+require('../data/prefectures.js');
+const { WordValidator, ComputerPlayer, DEFAULT_SETTINGS, WordNormalizer } = require('../core.js');
+const words = global.MANABI_DATA.prefectures;
+const settings = { ...DEFAULT_SETTINGS, stripPrefectureSuffix: true, cpuLevel: 'hard' };
+const validator = new WordValidator(words, settings);
+const cpu = new ComputerPlayer(validator, settings);
+let state = { usedIds: new Set(), requiredChar: 'き' };
+const pick = cpu.choose(state);
+assert.ok(pick);
+assert.strictEqual(WordNormalizer.firstChar(pick.reading, settings), 'き');
+assert.ok(!state.usedIds.has(pick.id));
+state = { usedIds: new Set(words.map(w => w.id)), requiredChar: 'き' };
+assert.strictEqual(cpu.choose(state), null);
+console.log('cpu-player tests passed');
