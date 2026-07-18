@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>国旗プレビュー</title>
+  <style>
+    body { margin: 0; font-family: system-ui, sans-serif; background: #f6f7fb; color: #1f2937; }
+    main { max-width: 1180px; margin: 0 auto; padding: 32px 20px; }
+    h1 { margin: 0 0 8px; }
+    p { margin: 0 0 24px; color: #4b5563; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 16px; }
+    .flag-card { background: white; border: 1px solid #e5e7eb; border-radius: 14px; padding: 14px; box-shadow: 0 1px 3px #0001; }
+    img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: contain; border: 1px solid #e5e7eb; border-radius: 8px; background: white; }
+    .name { margin-top: 10px; font-weight: 700; }
+    code { color: #6b7280; text-transform: uppercase; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>国旗プレビュー</h1>
+    <p>196か国の国旗・国名・国コードを一覧確認するためのページです。</p>
+    <section class="grid">
+      <article class="flag-card"><img src="./flags/jp.svg" alt="日本の国旗"><div class="name">日本</div><code>jp</code></article>
+      <article class="flag-card"><img src="./flags/cn.svg" alt="中国の国旗"><div class="name">中国</div><code>cn</code></article>
+      <article class="flag-card"><img src="./flags/kr.svg" alt="韓国の国旗"><div class="name">韓国</div><code>kr</code></article>
+      <article class="flag-card"><img src="./flags/mn.svg" alt="モンゴルの国旗"><div class="name">モンゴル</div><code>mn</code></article>
+      <article class="flag-card"><img src="./flags/bn.svg" alt="ブルネイの国旗"><div class="name">ブルネイ</div><code>bn</code></article>
+      <article class="flag-card"><img src="./flags/kh.svg" alt="カンボジアの国旗"><div class="name">カンボジア</div><code>kh</code></article>
+      <article class="flag-card"><img src="./flags/id.svg" alt="インドネシアの国旗"><div class="name">インドネシア</div><code>id</code></article>
+      <article class="flag-card"><img src="./flags/la.svg" alt="ラオスの国旗"><div class="name">ラオス</div><code>la</code></article>
+      <article class="flag-card"><img src="./flags/my.svg" alt="マレーシアの国旗"><div class="name">マレーシア</div><code>my</code></article>
+      <article class="flag-card"><img src="./flags/mm.svg" alt="ミャンマーの国旗"><div class="name">ミャンマー</div><code>mm</code></article>
+      <article class="flag-card"><img src="./flags/ph.svg" alt="フィリピンの国旗"><div class="name">フィリピン</div><code>ph</code></article>
+      <article class="flag-card"><img src="./flags/sg.svg" alt="シンガポールの国旗"><div class="name">シンガポール</div><code>sg</code></article>
+      <article class="flag-card"><img src="./flags/th.svg" alt="タイの国旗"><div class="name">タイ</div><code>th</code></article>
+      <article class="flag-card"><img src="./flags/tl.svg" alt="東ティモールの国旗"><div class="name">東ティモール</div><code>tl</code></article>
+      <article class="flag-card"><img src="./flags/vn.svg" alt="ベトナムの国旗"><div class="name">ベトナム</div><code>vn</code></article>
+      <article class="flag-card"><img src="./flags/in.svg" alt="インドの国旗"><div class="name">インド</div><code>in</code></article>
+      <article class="flag-card"><img src="./flags/pk.svg" alt="パキスタンの国旗"><div class="name">パキスタン</div><code>pk</code></article>
+      <article class="flag-card"><img src="./flags/bd.svg" alt="バングラデシュの国旗"><div class="name">バングラデシュ</div><code>bd</code></article>
+      <article class="flag-card"><img src="./flags/lk.svg" alt="スリランカの国旗"><div class="name">スリランカ</div><code>lk</code></article>
+      <article class="flag-card"><img src="./flags/np.svg" alt="ネパールの国旗"><div class="name">ネパール</div><code>np</code></article>
+      <article class="flag-card"><img src="./flags/bt.svg" alt="ブータンの国旗"><div class="name">ブータン</div><code>bt</code></article>
+      <article class="flag-card"><img src="./flags/mv.svg" alt="モルディブの国旗"><div class="name">モルディブ</div><code>mv</code></article>
+      <article class="flag-card"><img src="./flags/kz.svg" alt="カザフスタンの国旗"><div class="name">カザフスタン</div><code>kz</code></article>
+      <article class="flag-card"><img src="./flags/kg.svg" alt="キルギスの国旗"><div class="name">キルギス</div><code>kg</code></article>
+      <article class="flag-card"><img src="./flags/tj.svg" alt="タジキスタンの国旗"><div class="name">タジキスタン</div><code>tj</code></article>
+      <article class="flag-card"><img src="./flags/tm.svg" alt="トルクメニスタンの国旗"><div class="name">トルクメニスタン</div><code>tm</code></article>
+      <article class="flag-card"><img src="./flags/uz.svg" alt="ウズベキスタンの国旗"><div class="name">ウズベキスタン</div><code>uz</code></article>
+      <article class="flag-card"><img src="./flags/au.svg" alt="オーストラリアの国旗"><div class="name">オーストラリア</div><code>au</code></article>
+      <article class="flag-card"><img src="./flags/nz.svg" alt="ニュージーランドの国旗"><div class="name">ニュージーランド</div><code>nz</code></article>
+      <article class="flag-card"><img src="./flags/fj.svg" alt="フィジーの国旗"><div class="name">フィジー</div><code>fj</code></article>
+      <article class="flag-card"><img src="./flags/ki.svg" alt="キリバスの国旗"><div class="name">キリバス</div><code>ki</code></article>
+      <article class="flag-card"><img src="./flags/mh.svg" alt="マーシャル諸島の国旗"><div class="name">マーシャル諸島</div><code>mh</code></article>
+      <article class="flag-card"><img src="./flags/fm.svg" alt="ミクロネシアの国旗"><div class="name">ミクロネシア</div><code>fm</code></article>
+      <article class="flag-card"><img src="./flags/nr.svg" alt="ナウルの国旗"><div class="name">ナウル</div><code>nr</code></article>
+      <article class="flag-card"><img src="./flags/pw.svg" alt="パラオの国旗"><div class="name">パラオ</div><code>pw</code></article>
+      <article class="flag-card"><img src="./flags/pg.svg" alt="パプアニューギニアの国旗"><div class="name">パプアニューギニア</div><code>pg</code></article>
+      <article class="flag-card"><img src="./flags/ws.svg" alt="サモアの国旗"><div class="name">サモア</div><code>ws</code></article>
+      <article class="flag-card"><img src="./flags/sb.svg" alt="ソロモン諸島の国旗"><div class="name">ソロモン諸島</div><code>sb</code></article>
+      <article class="flag-card"><img src="./flags/to.svg" alt="トンガの国旗"><div class="name">トンガ</div><code>to</code></article>
+      <article class="flag-card"><img src="./flags/tv.svg" alt="ツバルの国旗"><div class="name">ツバル</div><code>tv</code></article>
+      <article class="flag-card"><img src="./flags/vu.svg" alt="バヌアツの国旗"><div class="name">バヌアツ</div><code>vu</code></article>
+      <article class="flag-card"><img src="./flags/ck.svg" alt="クック諸島の国旗"><div class="name">クック諸島</div><code>ck</code></article>
+      <article class="flag-card"><img src="./flags/nu.svg" alt="ニウエの国旗"><div class="name">ニウエ</div><code>nu</code></article>
+      <article class="flag-card"><img src="./flags/us.svg" alt="アメリカの国旗"><div class="name">アメリカ</div><code>us</code></article>
+      <article class="flag-card"><img src="./flags/ca.svg" alt="カナダの国旗"><div class="name">カナダ</div><code>ca</code></article>
+      <article class="flag-card"><img src="./flags/mx.svg" alt="メキシコの国旗"><div class="name">メキシコ</div><code>mx</code></article>
+      <article class="flag-card"><img src="./flags/ag.svg" alt="アンティグア・バーブーダの国旗"><div class="name">アンティグア・バーブーダ</div><code>ag</code></article>
+      <article class="flag-card"><img src="./flags/bs.svg" alt="バハマの国旗"><div class="name">バハマ</div><code>bs</code></article>
+      <article class="flag-card"><img src="./flags/bb.svg" alt="バルバドスの国旗"><div class="name">バルバドス</div><code>bb</code></article>
+      <article class="flag-card"><img src="./flags/bz.svg" alt="ベリーズの国旗"><div class="name">ベリーズ</div><code>bz</code></article>
+      <article class="flag-card"><img src="./flags/cr.svg" alt="コスタリカの国旗"><div class="name">コスタリカ</div><code>cr</code></article>
+      <article class="flag-card"><img src="./flags/cu.svg" alt="キューバの国旗"><div class="name">キューバ</div><code>cu</code></article>
+      <article class="flag-card"><img src="./flags/dm.svg" alt="ドミニカ国の国旗"><div class="name">ドミニカ国</div><code>dm</code></article>
+      <article class="flag-card"><img src="./flags/do.svg" alt="ドミニカ共和国の国旗"><div class="name">ドミニカ共和国</div><code>do</code></article>
+      <article class="flag-card"><img src="./flags/sv.svg" alt="エルサルバドルの国旗"><div class="name">エルサルバドル</div><code>sv</code></article>
+      <article class="flag-card"><img src="./flags/gd.svg" alt="グレナダの国旗"><div class="name">グレナダ</div><code>gd</code></article>
+      <article class="flag-card"><img src="./flags/gt.svg" alt="グアテマラの国旗"><div class="name">グアテマラ</div><code>gt</code></article>
+      <article class="flag-card"><img src="./flags/ht.svg" alt="ハイチの国旗"><div class="name">ハイチ</div><code>ht</code></article>
+      <article class="flag-card"><img src="./flags/hn.svg" alt="ホンジュラスの国旗"><div class="name">ホンジュラス</div><code>hn</code></article>
+      <article class="flag-card"><img src="./flags/jm.svg" alt="ジャマイカの国旗"><div class="name">ジャマイカ</div><code>jm</code></article>
+      <article class="flag-card"><img src="./flags/ni.svg" alt="ニカラグアの国旗"><div class="name">ニカラグア</div><code>ni</code></article>
+      <article class="flag-card"><img src="./flags/pa.svg" alt="パナマの国旗"><div class="name">パナマ</div><code>pa</code></article>
+      <article class="flag-card"><img src="./flags/kn.svg" alt="セントクリストファー・ネービスの国旗"><div class="name">セントクリストファー・ネービス</div><code>kn</code></article>
+      <article class="flag-card"><img src="./flags/lc.svg" alt="セントルシアの国旗"><div class="name">セントルシア</div><code>lc</code></article>
+      <article class="flag-card"><img src="./flags/vc.svg" alt="セントビンセントの国旗"><div class="name">セントビンセント</div><code>vc</code></article>
+      <article class="flag-card"><img src="./flags/tt.svg" alt="トリニダード・トバゴの国旗"><div class="name">トリニダード・トバゴ</div><code>tt</code></article>
+      <article class="flag-card"><img src="./flags/ar.svg" alt="アルゼンチンの国旗"><div class="name">アルゼンチン</div><code>ar</code></article>
+      <article class="flag-card"><img src="./flags/bo.svg" alt="ボリビアの国旗"><div class="name">ボリビア</div><code>bo</code></article>
+      <article class="flag-card"><img src="./flags/br.svg" alt="ブラジルの国旗"><div class="name">ブラジル</div><code>br</code></article>
+      <article class="flag-card"><img src="./flags/cl.svg" alt="チリの国旗"><div class="name">チリ</div><code>cl</code></article>
+      <article class="flag-card"><img src="./flags/co.svg" alt="コロンビアの国旗"><div class="name">コロンビア</div><code>co</code></article>
+      <article class="flag-card"><img src="./flags/ec.svg" alt="エクアドルの国旗"><div class="name">エクアドル</div><code>ec</code></article>
+      <article class="flag-card"><img src="./flags/gy.svg" alt="ガイアナの国旗"><div class="name">ガイアナ</div><code>gy</code></article>
+      <article class="flag-card"><img src="./flags/py.svg" alt="パラグアイの国旗"><div class="name">パラグアイ</div><code>py</code></article>
+      <article class="flag-card"><img src="./flags/pe.svg" alt="ペルーの国旗"><div class="name">ペルー</div><code>pe</code></article>
+      <article class="flag-card"><img src="./flags/sr.svg" alt="スリナムの国旗"><div class="name">スリナム</div><code>sr</code></article>
+      <article class="flag-card"><img src="./flags/uy.svg" alt="ウルグアイの国旗"><div class="name">ウルグアイ</div><code>uy</code></article>
+      <article class="flag-card"><img src="./flags/ve.svg" alt="ベネズエラの国旗"><div class="name">ベネズエラ</div><code>ve</code></article>
+      <article class="flag-card"><img src="./flags/gb.svg" alt="イギリスの国旗"><div class="name">イギリス</div><code>gb</code></article>
+      <article class="flag-card"><img src="./flags/ie.svg" alt="アイルランドの国旗"><div class="name">アイルランド</div><code>ie</code></article>
+      <article class="flag-card"><img src="./flags/fr.svg" alt="フランスの国旗"><div class="name">フランス</div><code>fr</code></article>
+      <article class="flag-card"><img src="./flags/de.svg" alt="ドイツの国旗"><div class="name">ドイツ</div><code>de</code></article>
+      <article class="flag-card"><img src="./flags/it.svg" alt="イタリアの国旗"><div class="name">イタリア</div><code>it</code></article>
+      <article class="flag-card"><img src="./flags/es.svg" alt="スペインの国旗"><div class="name">スペイン</div><code>es</code></article>
+      <article class="flag-card"><img src="./flags/pt.svg" alt="ポルトガルの国旗"><div class="name">ポルトガル</div><code>pt</code></article>
+      <article class="flag-card"><img src="./flags/nl.svg" alt="オランダの国旗"><div class="name">オランダ</div><code>nl</code></article>
+      <article class="flag-card"><img src="./flags/be.svg" alt="ベルギーの国旗"><div class="name">ベルギー</div><code>be</code></article>
+      <article class="flag-card"><img src="./flags/lu.svg" alt="ルクセンブルクの国旗"><div class="name">ルクセンブルク</div><code>lu</code></article>
+      <article class="flag-card"><img src="./flags/ch.svg" alt="スイスの国旗"><div class="name">スイス</div><code>ch</code></article>
+      <article class="flag-card"><img src="./flags/at.svg" alt="オーストリアの国旗"><div class="name">オーストリア</div><code>at</code></article>
+      <article class="flag-card"><img src="./flags/se.svg" alt="スウェーデンの国旗"><div class="name">スウェーデン</div><code>se</code></article>
+      <article class="flag-card"><img src="./flags/no.svg" alt="ノルウェーの国旗"><div class="name">ノルウェー</div><code>no</code></article>
+      <article class="flag-card"><img src="./flags/dk.svg" alt="デンマークの国旗"><div class="name">デンマーク</div><code>dk</code></article>
+      <article class="flag-card"><img src="./flags/fi.svg" alt="フィンランドの国旗"><div class="name">フィンランド</div><code>fi</code></article>
+      <article class="flag-card"><img src="./flags/is.svg" alt="アイスランドの国旗"><div class="name">アイスランド</div><code>is</code></article>
+      <article class="flag-card"><img src="./flags/ee.svg" alt="エストニアの国旗"><div class="name">エストニア</div><code>ee</code></article>
+      <article class="flag-card"><img src="./flags/lv.svg" alt="ラトビアの国旗"><div class="name">ラトビア</div><code>lv</code></article>
+      <article class="flag-card"><img src="./flags/lt.svg" alt="リトアニアの国旗"><div class="name">リトアニア</div><code>lt</code></article>
+      <article class="flag-card"><img src="./flags/pl.svg" alt="ポーランドの国旗"><div class="name">ポーランド</div><code>pl</code></article>
+      <article class="flag-card"><img src="./flags/cz.svg" alt="チェコの国旗"><div class="name">チェコ</div><code>cz</code></article>
+      <article class="flag-card"><img src="./flags/sk.svg" alt="スロバキアの国旗"><div class="name">スロバキア</div><code>sk</code></article>
+      <article class="flag-card"><img src="./flags/hu.svg" alt="ハンガリーの国旗"><div class="name">ハンガリー</div><code>hu</code></article>
+      <article class="flag-card"><img src="./flags/ro.svg" alt="ルーマニアの国旗"><div class="name">ルーマニア</div><code>ro</code></article>
+      <article class="flag-card"><img src="./flags/bg.svg" alt="ブルガリアの国旗"><div class="name">ブルガリア</div><code>bg</code></article>
+      <article class="flag-card"><img src="./flags/si.svg" alt="スロベニアの国旗"><div class="name">スロベニア</div><code>si</code></article>
+      <article class="flag-card"><img src="./flags/hr.svg" alt="クロアチアの国旗"><div class="name">クロアチア</div><code>hr</code></article>
+      <article class="flag-card"><img src="./flags/ba.svg" alt="ボスニア・ヘルツェゴビナの国旗"><div class="name">ボスニア・ヘルツェゴビナ</div><code>ba</code></article>
+      <article class="flag-card"><img src="./flags/rs.svg" alt="セルビアの国旗"><div class="name">セルビア</div><code>rs</code></article>
+      <article class="flag-card"><img src="./flags/me.svg" alt="モンテネグロの国旗"><div class="name">モンテネグロ</div><code>me</code></article>
+      <article class="flag-card"><img src="./flags/xk.svg" alt="コソボの国旗"><div class="name">コソボ</div><code>xk</code></article>
+      <article class="flag-card"><img src="./flags/al.svg" alt="アルバニアの国旗"><div class="name">アルバニア</div><code>al</code></article>
+      <article class="flag-card"><img src="./flags/mk.svg" alt="北マケドニアの国旗"><div class="name">北マケドニア</div><code>mk</code></article>
+      <article class="flag-card"><img src="./flags/gr.svg" alt="ギリシャの国旗"><div class="name">ギリシャ</div><code>gr</code></article>
+      <article class="flag-card"><img src="./flags/mt.svg" alt="マルタの国旗"><div class="name">マルタ</div><code>mt</code></article>
+      <article class="flag-card"><img src="./flags/cy.svg" alt="キプロスの国旗"><div class="name">キプロス</div><code>cy</code></article>
+      <article class="flag-card"><img src="./flags/md.svg" alt="モルドバの国旗"><div class="name">モルドバ</div><code>md</code></article>
+      <article class="flag-card"><img src="./flags/ua.svg" alt="ウクライナの国旗"><div class="name">ウクライナ</div><code>ua</code></article>
+      <article class="flag-card"><img src="./flags/by.svg" alt="ベラルーシの国旗"><div class="name">ベラルーシ</div><code>by</code></article>
+      <article class="flag-card"><img src="./flags/ru.svg" alt="ロシアの国旗"><div class="name">ロシア</div><code>ru</code></article>
+      <article class="flag-card"><img src="./flags/ad.svg" alt="アンドラの国旗"><div class="name">アンドラ</div><code>ad</code></article>
+      <article class="flag-card"><img src="./flags/mc.svg" alt="モナコの国旗"><div class="name">モナコ</div><code>mc</code></article>
+      <article class="flag-card"><img src="./flags/sm.svg" alt="サンマリノの国旗"><div class="name">サンマリノ</div><code>sm</code></article>
+      <article class="flag-card"><img src="./flags/va.svg" alt="バチカンの国旗"><div class="name">バチカン</div><code>va</code></article>
+      <article class="flag-card"><img src="./flags/li.svg" alt="リヒテンシュタインの国旗"><div class="name">リヒテンシュタイン</div><code>li</code></article>
+      <article class="flag-card"><img src="./flags/am.svg" alt="アルメニアの国旗"><div class="name">アルメニア</div><code>am</code></article>
+      <article class="flag-card"><img src="./flags/az.svg" alt="アゼルバイジャンの国旗"><div class="name">アゼルバイジャン</div><code>az</code></article>
+      <article class="flag-card"><img src="./flags/ge.svg" alt="ジョージアの国旗"><div class="name">ジョージア</div><code>ge</code></article>
+      <article class="flag-card"><img src="./flags/ae.svg" alt="アラブ首長国連邦の国旗"><div class="name">アラブ首長国連邦</div><code>ae</code></article>
+      <article class="flag-card"><img src="./flags/bh.svg" alt="バーレーンの国旗"><div class="name">バーレーン</div><code>bh</code></article>
+      <article class="flag-card"><img src="./flags/ir.svg" alt="イランの国旗"><div class="name">イラン</div><code>ir</code></article>
+      <article class="flag-card"><img src="./flags/iq.svg" alt="イラクの国旗"><div class="name">イラク</div><code>iq</code></article>
+      <article class="flag-card"><img src="./flags/il.svg" alt="イスラエルの国旗"><div class="name">イスラエル</div><code>il</code></article>
+      <article class="flag-card"><img src="./flags/jo.svg" alt="ヨルダンの国旗"><div class="name">ヨルダン</div><code>jo</code></article>
+      <article class="flag-card"><img src="./flags/kw.svg" alt="クウェートの国旗"><div class="name">クウェート</div><code>kw</code></article>
+      <article class="flag-card"><img src="./flags/lb.svg" alt="レバノンの国旗"><div class="name">レバノン</div><code>lb</code></article>
+      <article class="flag-card"><img src="./flags/om.svg" alt="オマーンの国旗"><div class="name">オマーン</div><code>om</code></article>
+      <article class="flag-card"><img src="./flags/qa.svg" alt="カタールの国旗"><div class="name">カタール</div><code>qa</code></article>
+      <article class="flag-card"><img src="./flags/sa.svg" alt="サウジアラビアの国旗"><div class="name">サウジアラビア</div><code>sa</code></article>
+      <article class="flag-card"><img src="./flags/sy.svg" alt="シリアの国旗"><div class="name">シリア</div><code>sy</code></article>
+      <article class="flag-card"><img src="./flags/tr.svg" alt="トルコの国旗"><div class="name">トルコ</div><code>tr</code></article>
+      <article class="flag-card"><img src="./flags/ye.svg" alt="イエメンの国旗"><div class="name">イエメン</div><code>ye</code></article>
+      <article class="flag-card"><img src="./flags/af.svg" alt="アフガニスタンの国旗"><div class="name">アフガニスタン</div><code>af</code></article>
+      <article class="flag-card"><img src="./flags/dz.svg" alt="アルジェリアの国旗"><div class="name">アルジェリア</div><code>dz</code></article>
+      <article class="flag-card"><img src="./flags/ao.svg" alt="アンゴラの国旗"><div class="name">アンゴラ</div><code>ao</code></article>
+      <article class="flag-card"><img src="./flags/bj.svg" alt="ベナンの国旗"><div class="name">ベナン</div><code>bj</code></article>
+      <article class="flag-card"><img src="./flags/bw.svg" alt="ボツワナの国旗"><div class="name">ボツワナ</div><code>bw</code></article>
+      <article class="flag-card"><img src="./flags/bf.svg" alt="ブルキナファソの国旗"><div class="name">ブルキナファソ</div><code>bf</code></article>
+      <article class="flag-card"><img src="./flags/bi.svg" alt="ブルンジの国旗"><div class="name">ブルンジ</div><code>bi</code></article>
+      <article class="flag-card"><img src="./flags/cv.svg" alt="カーボベルデの国旗"><div class="name">カーボベルデ</div><code>cv</code></article>
+      <article class="flag-card"><img src="./flags/cm.svg" alt="カメルーンの国旗"><div class="name">カメルーン</div><code>cm</code></article>
+      <article class="flag-card"><img src="./flags/cf.svg" alt="中央アフリカの国旗"><div class="name">中央アフリカ</div><code>cf</code></article>
+      <article class="flag-card"><img src="./flags/td.svg" alt="チャドの国旗"><div class="name">チャド</div><code>td</code></article>
+      <article class="flag-card"><img src="./flags/km.svg" alt="コモロの国旗"><div class="name">コモロ</div><code>km</code></article>
+      <article class="flag-card"><img src="./flags/cg.svg" alt="コンゴ共和国の国旗"><div class="name">コンゴ共和国</div><code>cg</code></article>
+      <article class="flag-card"><img src="./flags/cd.svg" alt="コンゴ民主共和国の国旗"><div class="name">コンゴ民主共和国</div><code>cd</code></article>
+      <article class="flag-card"><img src="./flags/ci.svg" alt="コートジボワールの国旗"><div class="name">コートジボワール</div><code>ci</code></article>
+      <article class="flag-card"><img src="./flags/dj.svg" alt="ジブチの国旗"><div class="name">ジブチ</div><code>dj</code></article>
+      <article class="flag-card"><img src="./flags/eg.svg" alt="エジプトの国旗"><div class="name">エジプト</div><code>eg</code></article>
+      <article class="flag-card"><img src="./flags/gq.svg" alt="赤道ギニアの国旗"><div class="name">赤道ギニア</div><code>gq</code></article>
+      <article class="flag-card"><img src="./flags/er.svg" alt="エリトリアの国旗"><div class="name">エリトリア</div><code>er</code></article>
+      <article class="flag-card"><img src="./flags/sz.svg" alt="エスワティニの国旗"><div class="name">エスワティニ</div><code>sz</code></article>
+      <article class="flag-card"><img src="./flags/et.svg" alt="エチオピアの国旗"><div class="name">エチオピア</div><code>et</code></article>
+      <article class="flag-card"><img src="./flags/ga.svg" alt="ガボンの国旗"><div class="name">ガボン</div><code>ga</code></article>
+      <article class="flag-card"><img src="./flags/gm.svg" alt="ガンビアの国旗"><div class="name">ガンビア</div><code>gm</code></article>
+      <article class="flag-card"><img src="./flags/gh.svg" alt="ガーナの国旗"><div class="name">ガーナ</div><code>gh</code></article>
+      <article class="flag-card"><img src="./flags/gn.svg" alt="ギニアの国旗"><div class="name">ギニア</div><code>gn</code></article>
+      <article class="flag-card"><img src="./flags/gw.svg" alt="ギニアビサウの国旗"><div class="name">ギニアビサウ</div><code>gw</code></article>
+      <article class="flag-card"><img src="./flags/ke.svg" alt="ケニアの国旗"><div class="name">ケニア</div><code>ke</code></article>
+      <article class="flag-card"><img src="./flags/ls.svg" alt="レソトの国旗"><div class="name">レソト</div><code>ls</code></article>
+      <article class="flag-card"><img src="./flags/lr.svg" alt="リベリアの国旗"><div class="name">リベリア</div><code>lr</code></article>
+      <article class="flag-card"><img src="./flags/ly.svg" alt="リビアの国旗"><div class="name">リビア</div><code>ly</code></article>
+      <article class="flag-card"><img src="./flags/mg.svg" alt="マダガスカルの国旗"><div class="name">マダガスカル</div><code>mg</code></article>
+      <article class="flag-card"><img src="./flags/mw.svg" alt="マラウイの国旗"><div class="name">マラウイ</div><code>mw</code></article>
+      <article class="flag-card"><img src="./flags/ml.svg" alt="マリの国旗"><div class="name">マリ</div><code>ml</code></article>
+      <article class="flag-card"><img src="./flags/mr.svg" alt="モーリタニアの国旗"><div class="name">モーリタニア</div><code>mr</code></article>
+      <article class="flag-card"><img src="./flags/mu.svg" alt="モーリシャスの国旗"><div class="name">モーリシャス</div><code>mu</code></article>
+      <article class="flag-card"><img src="./flags/ma.svg" alt="モロッコの国旗"><div class="name">モロッコ</div><code>ma</code></article>
+      <article class="flag-card"><img src="./flags/mz.svg" alt="モザンビークの国旗"><div class="name">モザンビーク</div><code>mz</code></article>
+      <article class="flag-card"><img src="./flags/na.svg" alt="ナミビアの国旗"><div class="name">ナミビア</div><code>na</code></article>
+      <article class="flag-card"><img src="./flags/ne.svg" alt="ニジェールの国旗"><div class="name">ニジェール</div><code>ne</code></article>
+      <article class="flag-card"><img src="./flags/ng.svg" alt="ナイジェリアの国旗"><div class="name">ナイジェリア</div><code>ng</code></article>
+      <article class="flag-card"><img src="./flags/rw.svg" alt="ルワンダの国旗"><div class="name">ルワンダ</div><code>rw</code></article>
+      <article class="flag-card"><img src="./flags/st.svg" alt="サントメ・プリンシペの国旗"><div class="name">サントメ・プリンシペ</div><code>st</code></article>
+      <article class="flag-card"><img src="./flags/sn.svg" alt="セネガルの国旗"><div class="name">セネガル</div><code>sn</code></article>
+      <article class="flag-card"><img src="./flags/sc.svg" alt="セーシェルの国旗"><div class="name">セーシェル</div><code>sc</code></article>
+      <article class="flag-card"><img src="./flags/sl.svg" alt="シエラレオネの国旗"><div class="name">シエラレオネ</div><code>sl</code></article>
+      <article class="flag-card"><img src="./flags/so.svg" alt="ソマリアの国旗"><div class="name">ソマリア</div><code>so</code></article>
+      <article class="flag-card"><img src="./flags/za.svg" alt="南アフリカの国旗"><div class="name">南アフリカ</div><code>za</code></article>
+      <article class="flag-card"><img src="./flags/ss.svg" alt="南スーダンの国旗"><div class="name">南スーダン</div><code>ss</code></article>
+      <article class="flag-card"><img src="./flags/sd.svg" alt="スーダンの国旗"><div class="name">スーダン</div><code>sd</code></article>
+      <article class="flag-card"><img src="./flags/tz.svg" alt="タンザニアの国旗"><div class="name">タンザニア</div><code>tz</code></article>
+      <article class="flag-card"><img src="./flags/tg.svg" alt="トーゴの国旗"><div class="name">トーゴ</div><code>tg</code></article>
+      <article class="flag-card"><img src="./flags/tn.svg" alt="チュニジアの国旗"><div class="name">チュニジア</div><code>tn</code></article>
+      <article class="flag-card"><img src="./flags/ug.svg" alt="ウガンダの国旗"><div class="name">ウガンダ</div><code>ug</code></article>
+      <article class="flag-card"><img src="./flags/zm.svg" alt="ザンビアの国旗"><div class="name">ザンビア</div><code>zm</code></article>
+      <article class="flag-card"><img src="./flags/zw.svg" alt="ジンバブエの国旗"><div class="name">ジンバブエ</div><code>zw</code></article>
+    </section>
+  </main>
+</body>
+</html>
