@@ -2157,3 +2157,29 @@ window.MANABI_DATA.countries = [
     "aliases": []
   }
 ];
+
+// Quiz metadata lives beside the canonical country records so the UI and game
+// engine never maintain a second country list.  Unknown optional facts remain
+// empty and are intentionally hidden by the learning card.
+(() => {
+  const easy = new Set(['japan','usa','china','korea','united-kingdom','france','germany','italy','spain','brazil','canada','australia','india','thailand','russia','mexico','argentina','egypt','turkey','switzerland','netherlands','sweden','norway','new-zealand','singapore']);
+  const intermediate = new Set(['indonesia','vietnam','philippines','malaysia','pakistan','bangladesh','nepal','sri-lanka','mongolia','greece','portugal','belgium','denmark','finland','poland','austria','ireland','ukraine','south-africa','kenya','morocco','saudi-arabia','israel','iran','iraq','chile','peru','colombia','cuba','jamaica']);
+  const advanced = new Set(['cambodia','laos','myanmar','brunei','bhutan','maldives','kazakhstan','uzbekistan','georgia','armenia','azerbaijan','croatia','serbia','romania','bulgaria','hungary','iceland','luxembourg','monaco','cyprus','malta','tunisia','algeria','ethiopia','ghana','tanzania','uganda','zimbabwe','bolivia','uruguay','paraguay','ecuador','costa-rica','panama','dominican-republic']);
+  const facts = {
+    japan:{capital:'東京',population:'1億2,380万人',populationYear:2024,areaKm2:377975,language:'日本語',currency:'円',famousFoods:['寿司'],famousPlaces:['富士山'],specialties:['自動車産業'],trivia:'大小1万4千以上の島からなる島国です。'},
+    thailand:{capital:'バンコク',population:'7,200万人',populationYear:2025,areaKm2:513120,language:'タイ語',currency:'バーツ',famousFoods:['トムヤムクン'],famousPlaces:['ワット・アルン'],specialties:['天然ゴム','観光業'],trivia:'東南アジアで植民地統治を受けなかった国として知られます。',hints:['東南アジアにある国です','首都はバンコクです','トムヤムクンや伝統的な格闘技で有名です']},
+    usa:{capital:'ワシントンD.C.',language:'英語',currency:'米ドル',famousPlaces:['自由の女神'],famousFoods:['ハンバーガー'],trivia:'50の州と一つの連邦区で構成されています。'},
+    china:{capital:'北京',language:'中国語',currency:'人民元',famousPlaces:['万里の長城'],trivia:'万里の長城は世界最大級の建造物群です。'},
+    france:{capital:'パリ',language:'フランス語',currency:'ユーロ',famousPlaces:['エッフェル塔'],famousFoods:['クロワッサン']},
+    italy:{capital:'ローマ',language:'イタリア語',currency:'ユーロ',famousPlaces:['コロッセオ'],famousFoods:['ピッツァ']},
+    india:{capital:'ニューデリー',language:'ヒンディー語、英語など',currency:'インド・ルピー',famousPlaces:['タージ・マハル'],famousFoods:['カレー']},
+    australia:{capital:'キャンベラ',language:'英語',currency:'オーストラリア・ドル',famousPlaces:['グレート・バリア・リーフ']},
+    brazil:{capital:'ブラジリア',language:'ポルトガル語',currency:'レアル',famousPlaces:['アマゾン川'],trivia:'南米でポルトガル語を公用語とする最大の国です。'}
+  };
+  for (const country of window.MANABI_DATA.countries) {
+    country.difficulty = easy.has(country.id) ? 1 : intermediate.has(country.id) ? 2 : advanced.has(country.id) ? 3 : 4;
+    Object.assign(country, { population:'', populationYear:'', areaKm2:'', language:'', currency:'', famousFoods:[], famousPlaces:[], specialties:[] }, facts[country.id] || {});
+    country.hints = country.hints || [`${country.region}に位置する国です`,'国旗の色や図柄をよく観察してみましょう',`読みは${country.reading.length}文字です`];
+    if (country.trivia === '世界の国旗しりとりで登場する国です。') country.trivia = '';
+  }
+})();

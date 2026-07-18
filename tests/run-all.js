@@ -5,3 +5,4 @@ require('./multiplayer.test.js');
 require('./theme.test.js');
 require('./flag-shiritori.test.js');
 require('./country-flags.test.js');
+require('./flag-engine.test.js');
