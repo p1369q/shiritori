@@ -3,1569 +3,2157 @@ window.MANABI_DATA.countries = [
   {
     "id": "japan",
     "name": "日本",
-    "read": "にほん",
+    "reading": "にほん",
     "region": "アジア",
-    "code": "jp",
-    "flag": "flags/jp.svg"
+    "flagCode": "jp",
+    "flagFile": "assets/flags/jp.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "china",
     "name": "中国",
-    "read": "ちゅうごく",
+    "reading": "ちゅうごく",
     "region": "アジア",
-    "code": "cn",
-    "flag": "flags/cn.svg"
+    "flagCode": "cn",
+    "flagFile": "assets/flags/cn.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "korea",
     "name": "韓国",
-    "read": "かんこく",
+    "reading": "かんこく",
     "region": "アジア",
-    "code": "kr",
-    "flag": "flags/kr.svg"
+    "flagCode": "kr",
+    "flagFile": "assets/flags/kr.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "mongolia",
     "name": "モンゴル",
-    "read": "もんごる",
+    "reading": "もんごる",
     "region": "アジア",
-    "code": "mn",
-    "flag": "flags/mn.svg"
+    "flagCode": "mn",
+    "flagFile": "assets/flags/mn.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "brunei",
     "name": "ブルネイ",
-    "read": "ぶるねい",
+    "reading": "ぶるねい",
     "region": "アジア",
-    "code": "bn",
-    "flag": "flags/bn.svg"
+    "flagCode": "bn",
+    "flagFile": "assets/flags/bn.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "cambodia",
     "name": "カンボジア",
-    "read": "かんぼじあ",
+    "reading": "かんぼじあ",
     "region": "アジア",
-    "code": "kh",
-    "flag": "flags/kh.svg"
+    "flagCode": "kh",
+    "flagFile": "assets/flags/kh.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "indonesia",
     "name": "インドネシア",
-    "read": "いんどねしあ",
+    "reading": "いんどねしあ",
     "region": "アジア",
-    "code": "id",
-    "flag": "flags/id.svg"
+    "flagCode": "id",
+    "flagFile": "assets/flags/id.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "laos",
     "name": "ラオス",
-    "read": "らおす",
+    "reading": "らおす",
     "region": "アジア",
-    "code": "la",
-    "flag": "flags/la.svg"
+    "flagCode": "la",
+    "flagFile": "assets/flags/la.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "malaysia",
     "name": "マレーシア",
-    "read": "まれーしあ",
+    "reading": "まれーしあ",
     "region": "アジア",
-    "code": "my",
-    "flag": "flags/my.svg"
+    "flagCode": "my",
+    "flagFile": "assets/flags/my.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "myanmar",
     "name": "ミャンマー",
-    "read": "みゃんまー",
+    "reading": "みゃんまー",
     "region": "アジア",
-    "code": "mm",
-    "flag": "flags/mm.svg"
+    "flagCode": "mm",
+    "flagFile": "assets/flags/mm.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "philippines",
     "name": "フィリピン",
-    "read": "ふぃりぴん",
+    "reading": "ふぃりぴん",
     "region": "アジア",
-    "code": "ph",
-    "flag": "flags/ph.svg"
+    "flagCode": "ph",
+    "flagFile": "assets/flags/ph.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "singapore",
     "name": "シンガポール",
-    "read": "しんがぽーる",
+    "reading": "しんがぽーる",
     "region": "アジア",
-    "code": "sg",
-    "flag": "flags/sg.svg"
+    "flagCode": "sg",
+    "flagFile": "assets/flags/sg.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "thailand",
     "name": "タイ",
-    "read": "たい",
+    "reading": "たい",
     "region": "アジア",
-    "code": "th",
-    "flag": "flags/th.svg"
+    "flagCode": "th",
+    "flagFile": "assets/flags/th.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
-    "id": "timor_leste",
+    "id": "timor-leste",
     "name": "東ティモール",
-    "read": "ひがしてぃもーる",
+    "reading": "ひがしてぃもーる",
     "region": "アジア",
-    "code": "tl",
-    "flag": "flags/tl.svg"
+    "flagCode": "tl",
+    "flagFile": "assets/flags/tl.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "vietnam",
     "name": "ベトナム",
-    "read": "べとなむ",
+    "reading": "べとなむ",
     "region": "アジア",
-    "code": "vn",
-    "flag": "flags/vn.svg"
+    "flagCode": "vn",
+    "flagFile": "assets/flags/vn.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "india",
     "name": "インド",
-    "read": "いんど",
+    "reading": "いんど",
     "region": "アジア",
-    "code": "in",
-    "flag": "flags/in.svg"
+    "flagCode": "in",
+    "flagFile": "assets/flags/in.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "pakistan",
     "name": "パキスタン",
-    "read": "ぱきすたん",
+    "reading": "ぱきすたん",
     "region": "アジア",
-    "code": "pk",
-    "flag": "flags/pk.svg"
+    "flagCode": "pk",
+    "flagFile": "assets/flags/pk.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "bangladesh",
     "name": "バングラデシュ",
-    "read": "ばんぐらでしゅ",
+    "reading": "ばんぐらでしゅ",
     "region": "アジア",
-    "code": "bd",
-    "flag": "flags/bd.svg"
+    "flagCode": "bd",
+    "flagFile": "assets/flags/bd.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
-    "id": "sri_lanka",
+    "id": "sri-lanka",
     "name": "スリランカ",
-    "read": "すりらんか",
+    "reading": "すりらんか",
     "region": "アジア",
-    "code": "lk",
-    "flag": "flags/lk.svg"
+    "flagCode": "lk",
+    "flagFile": "assets/flags/lk.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "nepal",
     "name": "ネパール",
-    "read": "ねぱーる",
+    "reading": "ねぱーる",
     "region": "アジア",
-    "code": "np",
-    "flag": "flags/np.svg"
+    "flagCode": "np",
+    "flagFile": "assets/flags/np.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "bhutan",
     "name": "ブータン",
-    "read": "ぶーたん",
+    "reading": "ぶーたん",
     "region": "アジア",
-    "code": "bt",
-    "flag": "flags/bt.svg"
+    "flagCode": "bt",
+    "flagFile": "assets/flags/bt.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "maldives",
     "name": "モルディブ",
-    "read": "もるでぃぶ",
+    "reading": "もるでぃぶ",
     "region": "アジア",
-    "code": "mv",
-    "flag": "flags/mv.svg"
+    "flagCode": "mv",
+    "flagFile": "assets/flags/mv.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "kazakhstan",
     "name": "カザフスタン",
-    "read": "かざふすたん",
+    "reading": "かざふすたん",
     "region": "アジア",
-    "code": "kz",
-    "flag": "flags/kz.svg"
+    "flagCode": "kz",
+    "flagFile": "assets/flags/kz.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "kyrgyzstan",
     "name": "キルギス",
-    "read": "きるぎす",
+    "reading": "きるぎす",
     "region": "アジア",
-    "code": "kg",
-    "flag": "flags/kg.svg"
+    "flagCode": "kg",
+    "flagFile": "assets/flags/kg.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "tajikistan",
     "name": "タジキスタン",
-    "read": "たじきすたん",
+    "reading": "たじきすたん",
     "region": "アジア",
-    "code": "tj",
-    "flag": "flags/tj.svg"
+    "flagCode": "tj",
+    "flagFile": "assets/flags/tj.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "turkmenistan",
     "name": "トルクメニスタン",
-    "read": "とるくめにすたん",
+    "reading": "とるくめにすたん",
     "region": "アジア",
-    "code": "tm",
-    "flag": "flags/tm.svg"
+    "flagCode": "tm",
+    "flagFile": "assets/flags/tm.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "uzbekistan",
     "name": "ウズベキスタン",
-    "read": "うずべきすたん",
+    "reading": "うずべきすたん",
     "region": "アジア",
-    "code": "uz",
-    "flag": "flags/uz.svg"
+    "flagCode": "uz",
+    "flagFile": "assets/flags/uz.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "australia",
     "name": "オーストラリア",
-    "read": "おーすとらりあ",
+    "reading": "おーすとらりあ",
     "region": "大洋州",
-    "code": "au",
-    "flag": "flags/au.svg"
+    "flagCode": "au",
+    "flagFile": "assets/flags/au.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
-    "id": "new_zealand",
+    "id": "new-zealand",
     "name": "ニュージーランド",
-    "read": "にゅーじーらんど",
+    "reading": "にゅーじーらんど",
     "region": "大洋州",
-    "code": "nz",
-    "flag": "flags/nz.svg"
+    "flagCode": "nz",
+    "flagFile": "assets/flags/nz.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "fiji",
     "name": "フィジー",
-    "read": "ふぃじー",
+    "reading": "ふぃじー",
     "region": "大洋州",
-    "code": "fj",
-    "flag": "flags/fj.svg"
+    "flagCode": "fj",
+    "flagFile": "assets/flags/fj.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "kiribati",
     "name": "キリバス",
-    "read": "きりばす",
+    "reading": "きりばす",
     "region": "大洋州",
-    "code": "ki",
-    "flag": "flags/ki.svg"
+    "flagCode": "ki",
+    "flagFile": "assets/flags/ki.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
-    "id": "marshall_islands",
+    "id": "marshall-islands",
     "name": "マーシャル諸島",
-    "read": "まーしゃるしょとう",
+    "reading": "まーしゃるしょとう",
     "region": "大洋州",
-    "code": "mh",
-    "flag": "flags/mh.svg"
+    "flagCode": "mh",
+    "flagFile": "assets/flags/mh.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "micronesia",
     "name": "ミクロネシア",
-    "read": "みくろねしあ",
+    "reading": "みくろねしあ",
     "region": "大洋州",
-    "code": "fm",
-    "flag": "flags/fm.svg"
+    "flagCode": "fm",
+    "flagFile": "assets/flags/fm.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "nauru",
     "name": "ナウル",
-    "read": "なうる",
+    "reading": "なうる",
     "region": "大洋州",
-    "code": "nr",
-    "flag": "flags/nr.svg"
+    "flagCode": "nr",
+    "flagFile": "assets/flags/nr.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "palau",
     "name": "パラオ",
-    "read": "ぱらお",
+    "reading": "ぱらお",
     "region": "大洋州",
-    "code": "pw",
-    "flag": "flags/pw.svg"
+    "flagCode": "pw",
+    "flagFile": "assets/flags/pw.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "papua_new_guinea",
     "name": "パプアニューギニア",
-    "read": "ぱぷあにゅーぎにあ",
+    "reading": "ぱぷあにゅーぎにあ",
     "region": "大洋州",
-    "code": "pg",
-    "flag": "flags/pg.svg"
+    "flagCode": "pg",
+    "flagFile": "assets/flags/pg.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "samoa",
     "name": "サモア",
-    "read": "さもあ",
+    "reading": "さもあ",
     "region": "大洋州",
-    "code": "ws",
-    "flag": "flags/ws.svg"
+    "flagCode": "ws",
+    "flagFile": "assets/flags/ws.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "solomon_islands",
     "name": "ソロモン諸島",
-    "read": "そろもんしょとう",
+    "reading": "そろもんしょとう",
     "region": "大洋州",
-    "code": "sb",
-    "flag": "flags/sb.svg"
+    "flagCode": "sb",
+    "flagFile": "assets/flags/sb.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "tonga",
     "name": "トンガ",
-    "read": "とんが",
+    "reading": "とんが",
     "region": "大洋州",
-    "code": "to",
-    "flag": "flags/to.svg"
+    "flagCode": "to",
+    "flagFile": "assets/flags/to.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "tuvalu",
     "name": "ツバル",
-    "read": "つばる",
+    "reading": "つばる",
     "region": "大洋州",
-    "code": "tv",
-    "flag": "flags/tv.svg"
+    "flagCode": "tv",
+    "flagFile": "assets/flags/tv.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "vanuatu",
     "name": "バヌアツ",
-    "read": "ばぬあつ",
+    "reading": "ばぬあつ",
     "region": "大洋州",
-    "code": "vu",
-    "flag": "flags/vu.svg"
+    "flagCode": "vu",
+    "flagFile": "assets/flags/vu.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
-    "id": "cook_islands",
+    "id": "cook-islands",
     "name": "クック諸島",
-    "read": "くっくしょとう",
+    "reading": "くっくしょとう",
     "region": "大洋州",
-    "code": "ck",
-    "flag": "flags/ck.svg"
+    "flagCode": "ck",
+    "flagFile": "assets/flags/ck.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "niue",
     "name": "ニウエ",
-    "read": "にうえ",
+    "reading": "にうえ",
     "region": "大洋州",
-    "code": "nu",
-    "flag": "flags/nu.svg"
+    "flagCode": "nu",
+    "flagFile": "assets/flags/nu.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "usa",
     "name": "アメリカ",
-    "read": "あめりか",
+    "reading": "あめりか",
     "region": "北米",
-    "code": "us",
-    "flag": "flags/us.svg"
+    "flagCode": "us",
+    "flagFile": "assets/flags/us.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "canada",
     "name": "カナダ",
-    "read": "かなだ",
+    "reading": "かなだ",
     "region": "北米",
-    "code": "ca",
-    "flag": "flags/ca.svg"
+    "flagCode": "ca",
+    "flagFile": "assets/flags/ca.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "mexico",
     "name": "メキシコ",
-    "read": "めきしこ",
+    "reading": "めきしこ",
     "region": "北米",
-    "code": "mx",
-    "flag": "flags/mx.svg"
+    "flagCode": "mx",
+    "flagFile": "assets/flags/mx.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
-    "id": "antigua_barbuda",
+    "id": "antigua-barbuda",
     "name": "アンティグア・バーブーダ",
-    "read": "あんてぃぐあばーぶーだ",
+    "reading": "あんてぃぐあばーぶーだ",
     "region": "中南米",
-    "code": "ag",
-    "flag": "flags/ag.svg"
+    "flagCode": "ag",
+    "flagFile": "assets/flags/ag.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "bahamas",
     "name": "バハマ",
-    "read": "ばはま",
+    "reading": "ばはま",
     "region": "中南米",
-    "code": "bs",
-    "flag": "flags/bs.svg"
+    "flagCode": "bs",
+    "flagFile": "assets/flags/bs.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "barbados",
     "name": "バルバドス",
-    "read": "ばるばどす",
+    "reading": "ばるばどす",
     "region": "中南米",
-    "code": "bb",
-    "flag": "flags/bb.svg"
+    "flagCode": "bb",
+    "flagFile": "assets/flags/bb.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "belize",
     "name": "ベリーズ",
-    "read": "べりーず",
+    "reading": "べりーず",
     "region": "中南米",
-    "code": "bz",
-    "flag": "flags/bz.svg"
+    "flagCode": "bz",
+    "flagFile": "assets/flags/bz.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "costa_rica",
     "name": "コスタリカ",
-    "read": "こすたりか",
+    "reading": "こすたりか",
     "region": "中南米",
-    "code": "cr",
-    "flag": "flags/cr.svg"
+    "flagCode": "cr",
+    "flagFile": "assets/flags/cr.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "cuba",
     "name": "キューバ",
-    "read": "きゅーば",
+    "reading": "きゅーば",
     "region": "中南米",
-    "code": "cu",
-    "flag": "flags/cu.svg"
+    "flagCode": "cu",
+    "flagFile": "assets/flags/cu.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "dominica",
     "name": "ドミニカ国",
-    "read": "どみにかこく",
+    "reading": "どみにかこく",
     "region": "中南米",
-    "code": "dm",
-    "flag": "flags/dm.svg"
+    "flagCode": "dm",
+    "flagFile": "assets/flags/dm.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
-    "id": "dominican_republic",
+    "id": "dominican-republic",
     "name": "ドミニカ共和国",
-    "read": "どみにかきょうわこく",
+    "reading": "どみにかきょうわこく",
     "region": "中南米",
-    "code": "do",
-    "flag": "flags/do.svg"
+    "flagCode": "do",
+    "flagFile": "assets/flags/do.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
-    "id": "el_salvador",
+    "id": "el-salvador",
     "name": "エルサルバドル",
-    "read": "えるさるばどる",
+    "reading": "えるさるばどる",
     "region": "中南米",
-    "code": "sv",
-    "flag": "flags/sv.svg"
+    "flagCode": "sv",
+    "flagFile": "assets/flags/sv.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "grenada",
     "name": "グレナダ",
-    "read": "ぐれなだ",
+    "reading": "ぐれなだ",
     "region": "中南米",
-    "code": "gd",
-    "flag": "flags/gd.svg"
+    "flagCode": "gd",
+    "flagFile": "assets/flags/gd.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "guatemala",
     "name": "グアテマラ",
-    "read": "ぐあてまら",
+    "reading": "ぐあてまら",
     "region": "中南米",
-    "code": "gt",
-    "flag": "flags/gt.svg"
+    "flagCode": "gt",
+    "flagFile": "assets/flags/gt.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "haiti",
     "name": "ハイチ",
-    "read": "はいち",
+    "reading": "はいち",
     "region": "中南米",
-    "code": "ht",
-    "flag": "flags/ht.svg"
+    "flagCode": "ht",
+    "flagFile": "assets/flags/ht.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "honduras",
     "name": "ホンジュラス",
-    "read": "ほんじゅらす",
+    "reading": "ほんじゅらす",
     "region": "中南米",
-    "code": "hn",
-    "flag": "flags/hn.svg"
+    "flagCode": "hn",
+    "flagFile": "assets/flags/hn.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "jamaica",
     "name": "ジャマイカ",
-    "read": "じゃまいか",
+    "reading": "じゃまいか",
     "region": "中南米",
-    "code": "jm",
-    "flag": "flags/jm.svg"
+    "flagCode": "jm",
+    "flagFile": "assets/flags/jm.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "nicaragua",
     "name": "ニカラグア",
-    "read": "にからぐあ",
+    "reading": "にからぐあ",
     "region": "中南米",
-    "code": "ni",
-    "flag": "flags/ni.svg"
+    "flagCode": "ni",
+    "flagFile": "assets/flags/ni.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "panama",
     "name": "パナマ",
-    "read": "ぱなま",
+    "reading": "ぱなま",
     "region": "中南米",
-    "code": "pa",
-    "flag": "flags/pa.svg"
+    "flagCode": "pa",
+    "flagFile": "assets/flags/pa.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
-    "id": "saint_kitts_nevis",
+    "id": "saint-kitts-nevis",
     "name": "セントクリストファー・ネービス",
-    "read": "せんとくりすとふぁーねーびす",
+    "reading": "せんとくりすとふぁーねーびす",
     "region": "中南米",
-    "code": "kn",
-    "flag": "flags/kn.svg"
+    "flagCode": "kn",
+    "flagFile": "assets/flags/kn.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "saint_lucia",
     "name": "セントルシア",
-    "read": "せんとるしあ",
+    "reading": "せんとるしあ",
     "region": "中南米",
-    "code": "lc",
-    "flag": "flags/lc.svg"
+    "flagCode": "lc",
+    "flagFile": "assets/flags/lc.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
-    "id": "saint_vincent",
+    "id": "saint-vincent",
     "name": "セントビンセント",
-    "read": "せんとびんせんと",
+    "reading": "せんとびんせんと",
     "region": "中南米",
-    "code": "vc",
-    "flag": "flags/vc.svg"
+    "flagCode": "vc",
+    "flagFile": "assets/flags/vc.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "trinidad_tobago",
     "name": "トリニダード・トバゴ",
-    "read": "とりにだーどとばご",
+    "reading": "とりにだーどとばご",
     "region": "中南米",
-    "code": "tt",
-    "flag": "flags/tt.svg"
+    "flagCode": "tt",
+    "flagFile": "assets/flags/tt.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "argentina",
     "name": "アルゼンチン",
-    "read": "あるぜんちん",
+    "reading": "あるぜんちん",
     "region": "中南米",
-    "code": "ar",
-    "flag": "flags/ar.svg"
+    "flagCode": "ar",
+    "flagFile": "assets/flags/ar.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "bolivia",
     "name": "ボリビア",
-    "read": "ぼりびあ",
+    "reading": "ぼりびあ",
     "region": "中南米",
-    "code": "bo",
-    "flag": "flags/bo.svg"
+    "flagCode": "bo",
+    "flagFile": "assets/flags/bo.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "brazil",
     "name": "ブラジル",
-    "read": "ぶらじる",
+    "reading": "ぶらじる",
     "region": "中南米",
-    "code": "br",
-    "flag": "flags/br.svg"
+    "flagCode": "br",
+    "flagFile": "assets/flags/br.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "chile",
     "name": "チリ",
-    "read": "ちり",
+    "reading": "ちり",
     "region": "中南米",
-    "code": "cl",
-    "flag": "flags/cl.svg"
+    "flagCode": "cl",
+    "flagFile": "assets/flags/cl.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "colombia",
     "name": "コロンビア",
-    "read": "ころんびあ",
+    "reading": "ころんびあ",
     "region": "中南米",
-    "code": "co",
-    "flag": "flags/co.svg"
+    "flagCode": "co",
+    "flagFile": "assets/flags/co.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "ecuador",
     "name": "エクアドル",
-    "read": "えくあどる",
+    "reading": "えくあどる",
     "region": "中南米",
-    "code": "ec",
-    "flag": "flags/ec.svg"
+    "flagCode": "ec",
+    "flagFile": "assets/flags/ec.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "guyana",
     "name": "ガイアナ",
-    "read": "がいあな",
+    "reading": "がいあな",
     "region": "中南米",
-    "code": "gy",
-    "flag": "flags/gy.svg"
+    "flagCode": "gy",
+    "flagFile": "assets/flags/gy.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "paraguay",
     "name": "パラグアイ",
-    "read": "ぱらぐあい",
+    "reading": "ぱらぐあい",
     "region": "中南米",
-    "code": "py",
-    "flag": "flags/py.svg"
+    "flagCode": "py",
+    "flagFile": "assets/flags/py.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "peru",
     "name": "ペルー",
-    "read": "ぺるー",
+    "reading": "ぺるー",
     "region": "中南米",
-    "code": "pe",
-    "flag": "flags/pe.svg"
+    "flagCode": "pe",
+    "flagFile": "assets/flags/pe.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "suriname",
     "name": "スリナム",
-    "read": "すりなむ",
+    "reading": "すりなむ",
     "region": "中南米",
-    "code": "sr",
-    "flag": "flags/sr.svg"
+    "flagCode": "sr",
+    "flagFile": "assets/flags/sr.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "uruguay",
     "name": "ウルグアイ",
-    "read": "うるぐあい",
+    "reading": "うるぐあい",
     "region": "中南米",
-    "code": "uy",
-    "flag": "flags/uy.svg"
+    "flagCode": "uy",
+    "flagFile": "assets/flags/uy.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "venezuela",
     "name": "ベネズエラ",
-    "read": "べねずえら",
+    "reading": "べねずえら",
     "region": "中南米",
-    "code": "ve",
-    "flag": "flags/ve.svg"
+    "flagCode": "ve",
+    "flagFile": "assets/flags/ve.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "uk",
     "name": "イギリス",
-    "read": "いぎりす",
+    "reading": "いぎりす",
     "region": "欧州",
-    "code": "gb",
-    "flag": "flags/gb.svg"
+    "flagCode": "gb",
+    "flagFile": "assets/flags/gb.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "ireland",
     "name": "アイルランド",
-    "read": "あいるらんど",
+    "reading": "あいるらんど",
     "region": "欧州",
-    "code": "ie",
-    "flag": "flags/ie.svg"
+    "flagCode": "ie",
+    "flagFile": "assets/flags/ie.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "france",
     "name": "フランス",
-    "read": "ふらんす",
+    "reading": "ふらんす",
     "region": "欧州",
-    "code": "fr",
-    "flag": "flags/fr.svg"
+    "flagCode": "fr",
+    "flagFile": "assets/flags/fr.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "germany",
     "name": "ドイツ",
-    "read": "どいつ",
+    "reading": "どいつ",
     "region": "欧州",
-    "code": "de",
-    "flag": "flags/de.svg"
+    "flagCode": "de",
+    "flagFile": "assets/flags/de.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "italy",
     "name": "イタリア",
-    "read": "いたりあ",
+    "reading": "いたりあ",
     "region": "欧州",
-    "code": "it",
-    "flag": "flags/it.svg"
+    "flagCode": "it",
+    "flagFile": "assets/flags/it.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "spain",
     "name": "スペイン",
-    "read": "すぺいん",
+    "reading": "すぺいん",
     "region": "欧州",
-    "code": "es",
-    "flag": "flags/es.svg"
+    "flagCode": "es",
+    "flagFile": "assets/flags/es.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "portugal",
     "name": "ポルトガル",
-    "read": "ぽるとがる",
+    "reading": "ぽるとがる",
     "region": "欧州",
-    "code": "pt",
-    "flag": "flags/pt.svg"
+    "flagCode": "pt",
+    "flagFile": "assets/flags/pt.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "netherlands",
     "name": "オランダ",
-    "read": "おらんだ",
+    "reading": "おらんだ",
     "region": "欧州",
-    "code": "nl",
-    "flag": "flags/nl.svg"
+    "flagCode": "nl",
+    "flagFile": "assets/flags/nl.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "belgium",
     "name": "ベルギー",
-    "read": "べるぎー",
+    "reading": "べるぎー",
     "region": "欧州",
-    "code": "be",
-    "flag": "flags/be.svg"
+    "flagCode": "be",
+    "flagFile": "assets/flags/be.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "luxembourg",
     "name": "ルクセンブルク",
-    "read": "るくせんぶるく",
+    "reading": "るくせんぶるく",
     "region": "欧州",
-    "code": "lu",
-    "flag": "flags/lu.svg"
+    "flagCode": "lu",
+    "flagFile": "assets/flags/lu.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "switzerland",
     "name": "スイス",
-    "read": "すいす",
+    "reading": "すいす",
     "region": "欧州",
-    "code": "ch",
-    "flag": "flags/ch.svg"
+    "flagCode": "ch",
+    "flagFile": "assets/flags/ch.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "austria",
     "name": "オーストリア",
-    "read": "おーすとりあ",
+    "reading": "おーすとりあ",
     "region": "欧州",
-    "code": "at",
-    "flag": "flags/at.svg"
+    "flagCode": "at",
+    "flagFile": "assets/flags/at.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "sweden",
     "name": "スウェーデン",
-    "read": "すうぇーでん",
+    "reading": "すうぇーでん",
     "region": "欧州",
-    "code": "se",
-    "flag": "flags/se.svg"
+    "flagCode": "se",
+    "flagFile": "assets/flags/se.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "norway",
     "name": "ノルウェー",
-    "read": "のるうぇー",
+    "reading": "のるうぇー",
     "region": "欧州",
-    "code": "no",
-    "flag": "flags/no.svg"
+    "flagCode": "no",
+    "flagFile": "assets/flags/no.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "denmark",
     "name": "デンマーク",
-    "read": "でんまーく",
+    "reading": "でんまーく",
     "region": "欧州",
-    "code": "dk",
-    "flag": "flags/dk.svg"
+    "flagCode": "dk",
+    "flagFile": "assets/flags/dk.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "finland",
     "name": "フィンランド",
-    "read": "ふぃんらんど",
+    "reading": "ふぃんらんど",
     "region": "欧州",
-    "code": "fi",
-    "flag": "flags/fi.svg"
+    "flagCode": "fi",
+    "flagFile": "assets/flags/fi.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "iceland",
     "name": "アイスランド",
-    "read": "あいすらんど",
+    "reading": "あいすらんど",
     "region": "欧州",
-    "code": "is",
-    "flag": "flags/is.svg"
+    "flagCode": "is",
+    "flagFile": "assets/flags/is.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "estonia",
     "name": "エストニア",
-    "read": "えすとにあ",
+    "reading": "えすとにあ",
     "region": "欧州",
-    "code": "ee",
-    "flag": "flags/ee.svg"
+    "flagCode": "ee",
+    "flagFile": "assets/flags/ee.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "latvia",
     "name": "ラトビア",
-    "read": "らとびあ",
+    "reading": "らとびあ",
     "region": "欧州",
-    "code": "lv",
-    "flag": "flags/lv.svg"
+    "flagCode": "lv",
+    "flagFile": "assets/flags/lv.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "lithuania",
     "name": "リトアニア",
-    "read": "りとあにあ",
+    "reading": "りとあにあ",
     "region": "欧州",
-    "code": "lt",
-    "flag": "flags/lt.svg"
+    "flagCode": "lt",
+    "flagFile": "assets/flags/lt.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "poland",
     "name": "ポーランド",
-    "read": "ぽーらんど",
+    "reading": "ぽーらんど",
     "region": "欧州",
-    "code": "pl",
-    "flag": "flags/pl.svg"
+    "flagCode": "pl",
+    "flagFile": "assets/flags/pl.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "czechia",
     "name": "チェコ",
-    "read": "ちぇこ",
+    "reading": "ちぇこ",
     "region": "欧州",
-    "code": "cz",
-    "flag": "flags/cz.svg"
+    "flagCode": "cz",
+    "flagFile": "assets/flags/cz.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "slovakia",
     "name": "スロバキア",
-    "read": "すろばきあ",
+    "reading": "すろばきあ",
     "region": "欧州",
-    "code": "sk",
-    "flag": "flags/sk.svg"
+    "flagCode": "sk",
+    "flagFile": "assets/flags/sk.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "hungary",
     "name": "ハンガリー",
-    "read": "はんがりー",
+    "reading": "はんがりー",
     "region": "欧州",
-    "code": "hu",
-    "flag": "flags/hu.svg"
+    "flagCode": "hu",
+    "flagFile": "assets/flags/hu.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "romania",
     "name": "ルーマニア",
-    "read": "るーまにあ",
+    "reading": "るーまにあ",
     "region": "欧州",
-    "code": "ro",
-    "flag": "flags/ro.svg"
+    "flagCode": "ro",
+    "flagFile": "assets/flags/ro.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "bulgaria",
     "name": "ブルガリア",
-    "read": "ぶるがりあ",
+    "reading": "ぶるがりあ",
     "region": "欧州",
-    "code": "bg",
-    "flag": "flags/bg.svg"
+    "flagCode": "bg",
+    "flagFile": "assets/flags/bg.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "slovenia",
     "name": "スロベニア",
-    "read": "すろべにあ",
+    "reading": "すろべにあ",
     "region": "欧州",
-    "code": "si",
-    "flag": "flags/si.svg"
+    "flagCode": "si",
+    "flagFile": "assets/flags/si.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "croatia",
     "name": "クロアチア",
-    "read": "くろあちあ",
+    "reading": "くろあちあ",
     "region": "欧州",
-    "code": "hr",
-    "flag": "flags/hr.svg"
+    "flagCode": "hr",
+    "flagFile": "assets/flags/hr.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "bosnia",
     "name": "ボスニア・ヘルツェゴビナ",
-    "read": "ぼすにあへるつぇごびな",
+    "reading": "ぼすにあへるつぇごびな",
     "region": "欧州",
-    "code": "ba",
-    "flag": "flags/ba.svg"
+    "flagCode": "ba",
+    "flagFile": "assets/flags/ba.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "serbia",
     "name": "セルビア",
-    "read": "せるびあ",
+    "reading": "せるびあ",
     "region": "欧州",
-    "code": "rs",
-    "flag": "flags/rs.svg"
+    "flagCode": "rs",
+    "flagFile": "assets/flags/rs.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "montenegro",
     "name": "モンテネグロ",
-    "read": "もんてねぐろ",
+    "reading": "もんてねぐろ",
     "region": "欧州",
-    "code": "me",
-    "flag": "flags/me.svg"
+    "flagCode": "me",
+    "flagFile": "assets/flags/me.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "kosovo",
     "name": "コソボ",
-    "read": "こそぼ",
+    "reading": "こそぼ",
     "region": "欧州",
-    "code": "xk",
-    "flag": "flags/xk.svg"
+    "flagCode": "xk",
+    "flagFile": "assets/flags/xk.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "albania",
     "name": "アルバニア",
-    "read": "あるばにあ",
+    "reading": "あるばにあ",
     "region": "欧州",
-    "code": "al",
-    "flag": "flags/al.svg"
+    "flagCode": "al",
+    "flagFile": "assets/flags/al.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "north_macedonia",
     "name": "北マケドニア",
-    "read": "きたまけどにあ",
+    "reading": "きたまけどにあ",
     "region": "欧州",
-    "code": "mk",
-    "flag": "flags/mk.svg"
+    "flagCode": "mk",
+    "flagFile": "assets/flags/mk.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "greece",
     "name": "ギリシャ",
-    "read": "ぎりしゃ",
+    "reading": "ぎりしゃ",
     "region": "欧州",
-    "code": "gr",
-    "flag": "flags/gr.svg"
+    "flagCode": "gr",
+    "flagFile": "assets/flags/gr.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "malta",
     "name": "マルタ",
-    "read": "まるた",
+    "reading": "まるた",
     "region": "欧州",
-    "code": "mt",
-    "flag": "flags/mt.svg"
+    "flagCode": "mt",
+    "flagFile": "assets/flags/mt.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "cyprus",
     "name": "キプロス",
-    "read": "きぷろす",
+    "reading": "きぷろす",
     "region": "欧州",
-    "code": "cy",
-    "flag": "flags/cy.svg"
+    "flagCode": "cy",
+    "flagFile": "assets/flags/cy.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "moldova",
     "name": "モルドバ",
-    "read": "もるどば",
+    "reading": "もるどば",
     "region": "欧州",
-    "code": "md",
-    "flag": "flags/md.svg"
+    "flagCode": "md",
+    "flagFile": "assets/flags/md.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "ukraine",
     "name": "ウクライナ",
-    "read": "うくらいな",
+    "reading": "うくらいな",
     "region": "欧州",
-    "code": "ua",
-    "flag": "flags/ua.svg"
+    "flagCode": "ua",
+    "flagFile": "assets/flags/ua.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "belarus",
     "name": "ベラルーシ",
-    "read": "べらるーし",
+    "reading": "べらるーし",
     "region": "欧州",
-    "code": "by",
-    "flag": "flags/by.svg"
+    "flagCode": "by",
+    "flagFile": "assets/flags/by.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "russia",
     "name": "ロシア",
-    "read": "ろしあ",
+    "reading": "ろしあ",
     "region": "欧州",
-    "code": "ru",
-    "flag": "flags/ru.svg"
+    "flagCode": "ru",
+    "flagFile": "assets/flags/ru.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "andorra",
     "name": "アンドラ",
-    "read": "あんどら",
+    "reading": "あんどら",
     "region": "欧州",
-    "code": "ad",
-    "flag": "flags/ad.svg"
+    "flagCode": "ad",
+    "flagFile": "assets/flags/ad.svg",
+    "capital": "アンドラ・ラ・ベリャ",
+    "trivia": "フランスとスペインの間にある小さな国です。",
+    "aliases": []
   },
   {
     "id": "monaco",
     "name": "モナコ",
-    "read": "もなこ",
+    "reading": "もなこ",
     "region": "欧州",
-    "code": "mc",
-    "flag": "flags/mc.svg"
+    "flagCode": "mc",
+    "flagFile": "assets/flags/mc.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "san_marino",
     "name": "サンマリノ",
-    "read": "さんまりの",
+    "reading": "さんまりの",
     "region": "欧州",
-    "code": "sm",
-    "flag": "flags/sm.svg"
+    "flagCode": "sm",
+    "flagFile": "assets/flags/sm.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "vatican",
     "name": "バチカン",
-    "read": "ばちかん",
+    "reading": "ばちかん",
     "region": "欧州",
-    "code": "va",
-    "flag": "flags/va.svg"
+    "flagCode": "va",
+    "flagFile": "assets/flags/va.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "liechtenstein",
     "name": "リヒテンシュタイン",
-    "read": "りひてんしゅたいん",
+    "reading": "りひてんしゅたいん",
     "region": "欧州",
-    "code": "li",
-    "flag": "flags/li.svg"
+    "flagCode": "li",
+    "flagFile": "assets/flags/li.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "armenia",
     "name": "アルメニア",
-    "read": "あるめにあ",
+    "reading": "あるめにあ",
     "region": "欧州",
-    "code": "am",
-    "flag": "flags/am.svg"
+    "flagCode": "am",
+    "flagFile": "assets/flags/am.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "azerbaijan",
     "name": "アゼルバイジャン",
-    "read": "あぜるばいじゃん",
+    "reading": "あぜるばいじゃん",
     "region": "欧州",
-    "code": "az",
-    "flag": "flags/az.svg"
+    "flagCode": "az",
+    "flagFile": "assets/flags/az.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "georgia",
     "name": "ジョージア",
-    "read": "じょーじあ",
+    "reading": "じょーじあ",
     "region": "欧州",
-    "code": "ge",
-    "flag": "flags/ge.svg"
+    "flagCode": "ge",
+    "flagFile": "assets/flags/ge.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "uae",
     "name": "アラブ首長国連邦",
-    "read": "あらぶしゅちょうこくれんぽう",
+    "reading": "あらぶしゅちょうこくれんぽう",
     "region": "中東",
-    "code": "ae",
-    "flag": "flags/ae.svg"
+    "flagCode": "ae",
+    "flagFile": "assets/flags/ae.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "bahrain",
     "name": "バーレーン",
-    "read": "ばーれーん",
+    "reading": "ばーれーん",
     "region": "中東",
-    "code": "bh",
-    "flag": "flags/bh.svg"
+    "flagCode": "bh",
+    "flagFile": "assets/flags/bh.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "iran",
     "name": "イラン",
-    "read": "いらん",
+    "reading": "いらん",
     "region": "中東",
-    "code": "ir",
-    "flag": "flags/ir.svg"
+    "flagCode": "ir",
+    "flagFile": "assets/flags/ir.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "iraq",
     "name": "イラク",
-    "read": "いらく",
+    "reading": "いらく",
     "region": "中東",
-    "code": "iq",
-    "flag": "flags/iq.svg"
+    "flagCode": "iq",
+    "flagFile": "assets/flags/iq.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "israel",
     "name": "イスラエル",
-    "read": "いすらえる",
+    "reading": "いすらえる",
     "region": "中東",
-    "code": "il",
-    "flag": "flags/il.svg"
+    "flagCode": "il",
+    "flagFile": "assets/flags/il.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "jordan",
     "name": "ヨルダン",
-    "read": "よるだん",
+    "reading": "よるだん",
     "region": "中東",
-    "code": "jo",
-    "flag": "flags/jo.svg"
+    "flagCode": "jo",
+    "flagFile": "assets/flags/jo.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "kuwait",
     "name": "クウェート",
-    "read": "くうぇーと",
+    "reading": "くうぇーと",
     "region": "中東",
-    "code": "kw",
-    "flag": "flags/kw.svg"
+    "flagCode": "kw",
+    "flagFile": "assets/flags/kw.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "lebanon",
     "name": "レバノン",
-    "read": "ればのん",
+    "reading": "ればのん",
     "region": "中東",
-    "code": "lb",
-    "flag": "flags/lb.svg"
+    "flagCode": "lb",
+    "flagFile": "assets/flags/lb.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "oman",
     "name": "オマーン",
-    "read": "おまーん",
+    "reading": "おまーん",
     "region": "中東",
-    "code": "om",
-    "flag": "flags/om.svg"
+    "flagCode": "om",
+    "flagFile": "assets/flags/om.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "qatar",
     "name": "カタール",
-    "read": "かたーる",
+    "reading": "かたーる",
     "region": "中東",
-    "code": "qa",
-    "flag": "flags/qa.svg"
+    "flagCode": "qa",
+    "flagFile": "assets/flags/qa.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
-    "id": "saudi_arabia",
+    "id": "saudi-arabia",
     "name": "サウジアラビア",
-    "read": "さうじあらびあ",
+    "reading": "さうじあらびあ",
     "region": "中東",
-    "code": "sa",
-    "flag": "flags/sa.svg"
+    "flagCode": "sa",
+    "flagFile": "assets/flags/sa.svg",
+    "capital": "リヤド",
+    "trivia": "アラビア半島にある大きな国です。",
+    "aliases": []
   },
   {
     "id": "syria",
     "name": "シリア",
-    "read": "しりあ",
+    "reading": "しりあ",
     "region": "中東",
-    "code": "sy",
-    "flag": "flags/sy.svg"
+    "flagCode": "sy",
+    "flagFile": "assets/flags/sy.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "turkey",
     "name": "トルコ",
-    "read": "とるこ",
+    "reading": "とるこ",
     "region": "中東",
-    "code": "tr",
-    "flag": "flags/tr.svg"
+    "flagCode": "tr",
+    "flagFile": "assets/flags/tr.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "yemen",
     "name": "イエメン",
-    "read": "いえめん",
+    "reading": "いえめん",
     "region": "中東",
-    "code": "ye",
-    "flag": "flags/ye.svg"
+    "flagCode": "ye",
+    "flagFile": "assets/flags/ye.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "afghanistan",
     "name": "アフガニスタン",
-    "read": "あふがにすたん",
+    "reading": "あふがにすたん",
     "region": "中東",
-    "code": "af",
-    "flag": "flags/af.svg"
+    "flagCode": "af",
+    "flagFile": "assets/flags/af.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "algeria",
     "name": "アルジェリア",
-    "read": "あるじぇりあ",
+    "reading": "あるじぇりあ",
     "region": "アフリカ",
-    "code": "dz",
-    "flag": "flags/dz.svg"
+    "flagCode": "dz",
+    "flagFile": "assets/flags/dz.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "angola",
     "name": "アンゴラ",
-    "read": "あんごら",
+    "reading": "あんごら",
     "region": "アフリカ",
-    "code": "ao",
-    "flag": "flags/ao.svg"
+    "flagCode": "ao",
+    "flagFile": "assets/flags/ao.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "benin",
     "name": "ベナン",
-    "read": "べなん",
+    "reading": "べなん",
     "region": "アフリカ",
-    "code": "bj",
-    "flag": "flags/bj.svg"
+    "flagCode": "bj",
+    "flagFile": "assets/flags/bj.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "botswana",
     "name": "ボツワナ",
-    "read": "ぼつわな",
+    "reading": "ぼつわな",
     "region": "アフリカ",
-    "code": "bw",
-    "flag": "flags/bw.svg"
+    "flagCode": "bw",
+    "flagFile": "assets/flags/bw.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "burkina_faso",
     "name": "ブルキナファソ",
-    "read": "ぶるきなふぁそ",
+    "reading": "ぶるきなふぁそ",
     "region": "アフリカ",
-    "code": "bf",
-    "flag": "flags/bf.svg"
+    "flagCode": "bf",
+    "flagFile": "assets/flags/bf.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "burundi",
     "name": "ブルンジ",
-    "read": "ぶるんじ",
+    "reading": "ぶるんじ",
     "region": "アフリカ",
-    "code": "bi",
-    "flag": "flags/bi.svg"
+    "flagCode": "bi",
+    "flagFile": "assets/flags/bi.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "cabo_verde",
     "name": "カーボベルデ",
-    "read": "かーぼべるで",
+    "reading": "かーぼべるで",
     "region": "アフリカ",
-    "code": "cv",
-    "flag": "flags/cv.svg"
+    "flagCode": "cv",
+    "flagFile": "assets/flags/cv.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "cameroon",
     "name": "カメルーン",
-    "read": "かめるーん",
+    "reading": "かめるーん",
     "region": "アフリカ",
-    "code": "cm",
-    "flag": "flags/cm.svg"
+    "flagCode": "cm",
+    "flagFile": "assets/flags/cm.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "central_african_republic",
     "name": "中央アフリカ",
-    "read": "ちゅうおうあふりか",
+    "reading": "ちゅうおうあふりか",
     "region": "アフリカ",
-    "code": "cf",
-    "flag": "flags/cf.svg"
+    "flagCode": "cf",
+    "flagFile": "assets/flags/cf.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "chad",
     "name": "チャド",
-    "read": "ちゃど",
+    "reading": "ちゃど",
     "region": "アフリカ",
-    "code": "td",
-    "flag": "flags/td.svg"
+    "flagCode": "td",
+    "flagFile": "assets/flags/td.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "comoros",
     "name": "コモロ",
-    "read": "こもろ",
+    "reading": "こもろ",
     "region": "アフリカ",
-    "code": "km",
-    "flag": "flags/km.svg"
+    "flagCode": "km",
+    "flagFile": "assets/flags/km.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "congo_republic",
     "name": "コンゴ共和国",
-    "read": "こんごきょうわこく",
+    "reading": "こんごきょうわこく",
     "region": "アフリカ",
-    "code": "cg",
-    "flag": "flags/cg.svg"
+    "flagCode": "cg",
+    "flagFile": "assets/flags/cg.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "drc",
     "name": "コンゴ民主共和国",
-    "read": "こんごみんしゅきょうわこく",
+    "reading": "こんごみんしゅきょうわこく",
     "region": "アフリカ",
-    "code": "cd",
-    "flag": "flags/cd.svg"
+    "flagCode": "cd",
+    "flagFile": "assets/flags/cd.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "cote_divoire",
     "name": "コートジボワール",
-    "read": "こーとじぼわーる",
+    "reading": "こーとじぼわーる",
     "region": "アフリカ",
-    "code": "ci",
-    "flag": "flags/ci.svg"
+    "flagCode": "ci",
+    "flagFile": "assets/flags/ci.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "djibouti",
     "name": "ジブチ",
-    "read": "じぶち",
+    "reading": "じぶち",
     "region": "アフリカ",
-    "code": "dj",
-    "flag": "flags/dj.svg"
+    "flagCode": "dj",
+    "flagFile": "assets/flags/dj.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "egypt",
     "name": "エジプト",
-    "read": "えじぷと",
+    "reading": "えじぷと",
     "region": "アフリカ",
-    "code": "eg",
-    "flag": "flags/eg.svg"
+    "flagCode": "eg",
+    "flagFile": "assets/flags/eg.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "equatorial_guinea",
     "name": "赤道ギニア",
-    "read": "せきどうぎにあ",
+    "reading": "せきどうぎにあ",
     "region": "アフリカ",
-    "code": "gq",
-    "flag": "flags/gq.svg"
+    "flagCode": "gq",
+    "flagFile": "assets/flags/gq.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "eritrea",
     "name": "エリトリア",
-    "read": "えりとりあ",
+    "reading": "えりとりあ",
     "region": "アフリカ",
-    "code": "er",
-    "flag": "flags/er.svg"
+    "flagCode": "er",
+    "flagFile": "assets/flags/er.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "eswatini",
     "name": "エスワティニ",
-    "read": "えすわてぃに",
+    "reading": "えすわてぃに",
     "region": "アフリカ",
-    "code": "sz",
-    "flag": "flags/sz.svg"
+    "flagCode": "sz",
+    "flagFile": "assets/flags/sz.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "ethiopia",
     "name": "エチオピア",
-    "read": "えちおぴあ",
+    "reading": "えちおぴあ",
     "region": "アフリカ",
-    "code": "et",
-    "flag": "flags/et.svg"
+    "flagCode": "et",
+    "flagFile": "assets/flags/et.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "gabon",
     "name": "ガボン",
-    "read": "がぼん",
+    "reading": "がぼん",
     "region": "アフリカ",
-    "code": "ga",
-    "flag": "flags/ga.svg"
+    "flagCode": "ga",
+    "flagFile": "assets/flags/ga.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "gambia",
     "name": "ガンビア",
-    "read": "がんびあ",
+    "reading": "がんびあ",
     "region": "アフリカ",
-    "code": "gm",
-    "flag": "flags/gm.svg"
+    "flagCode": "gm",
+    "flagFile": "assets/flags/gm.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "ghana",
     "name": "ガーナ",
-    "read": "がーな",
+    "reading": "がーな",
     "region": "アフリカ",
-    "code": "gh",
-    "flag": "flags/gh.svg"
+    "flagCode": "gh",
+    "flagFile": "assets/flags/gh.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "guinea",
     "name": "ギニア",
-    "read": "ぎにあ",
+    "reading": "ぎにあ",
     "region": "アフリカ",
-    "code": "gn",
-    "flag": "flags/gn.svg"
+    "flagCode": "gn",
+    "flagFile": "assets/flags/gn.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "guinea_bissau",
     "name": "ギニアビサウ",
-    "read": "ぎにあびさう",
+    "reading": "ぎにあびさう",
     "region": "アフリカ",
-    "code": "gw",
-    "flag": "flags/gw.svg"
+    "flagCode": "gw",
+    "flagFile": "assets/flags/gw.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "kenya",
     "name": "ケニア",
-    "read": "けにあ",
+    "reading": "けにあ",
     "region": "アフリカ",
-    "code": "ke",
-    "flag": "flags/ke.svg"
+    "flagCode": "ke",
+    "flagFile": "assets/flags/ke.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "lesotho",
     "name": "レソト",
-    "read": "れそと",
+    "reading": "れそと",
     "region": "アフリカ",
-    "code": "ls",
-    "flag": "flags/ls.svg"
+    "flagCode": "ls",
+    "flagFile": "assets/flags/ls.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "liberia",
     "name": "リベリア",
-    "read": "りべりあ",
+    "reading": "りべりあ",
     "region": "アフリカ",
-    "code": "lr",
-    "flag": "flags/lr.svg"
+    "flagCode": "lr",
+    "flagFile": "assets/flags/lr.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "libya",
     "name": "リビア",
-    "read": "りびあ",
+    "reading": "りびあ",
     "region": "アフリカ",
-    "code": "ly",
-    "flag": "flags/ly.svg"
+    "flagCode": "ly",
+    "flagFile": "assets/flags/ly.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "madagascar",
     "name": "マダガスカル",
-    "read": "まだがすかる",
+    "reading": "まだがすかる",
     "region": "アフリカ",
-    "code": "mg",
-    "flag": "flags/mg.svg"
+    "flagCode": "mg",
+    "flagFile": "assets/flags/mg.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "malawi",
     "name": "マラウイ",
-    "read": "まらうい",
+    "reading": "まらうい",
     "region": "アフリカ",
-    "code": "mw",
-    "flag": "flags/mw.svg"
+    "flagCode": "mw",
+    "flagFile": "assets/flags/mw.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "mali",
     "name": "マリ",
-    "read": "まり",
+    "reading": "まり",
     "region": "アフリカ",
-    "code": "ml",
-    "flag": "flags/ml.svg"
+    "flagCode": "ml",
+    "flagFile": "assets/flags/ml.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "mauritania",
     "name": "モーリタニア",
-    "read": "もーりたにあ",
+    "reading": "もーりたにあ",
     "region": "アフリカ",
-    "code": "mr",
-    "flag": "flags/mr.svg"
+    "flagCode": "mr",
+    "flagFile": "assets/flags/mr.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "mauritius",
     "name": "モーリシャス",
-    "read": "もーりしゃす",
+    "reading": "もーりしゃす",
     "region": "アフリカ",
-    "code": "mu",
-    "flag": "flags/mu.svg"
+    "flagCode": "mu",
+    "flagFile": "assets/flags/mu.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "morocco",
     "name": "モロッコ",
-    "read": "もろっこ",
+    "reading": "もろっこ",
     "region": "アフリカ",
-    "code": "ma",
-    "flag": "flags/ma.svg"
+    "flagCode": "ma",
+    "flagFile": "assets/flags/ma.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "mozambique",
     "name": "モザンビーク",
-    "read": "もざんびーく",
+    "reading": "もざんびーく",
     "region": "アフリカ",
-    "code": "mz",
-    "flag": "flags/mz.svg"
+    "flagCode": "mz",
+    "flagFile": "assets/flags/mz.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "namibia",
     "name": "ナミビア",
-    "read": "なみびあ",
+    "reading": "なみびあ",
     "region": "アフリカ",
-    "code": "na",
-    "flag": "flags/na.svg"
+    "flagCode": "na",
+    "flagFile": "assets/flags/na.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "niger",
     "name": "ニジェール",
-    "read": "にじぇーる",
+    "reading": "にじぇーる",
     "region": "アフリカ",
-    "code": "ne",
-    "flag": "flags/ne.svg"
+    "flagCode": "ne",
+    "flagFile": "assets/flags/ne.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "nigeria",
     "name": "ナイジェリア",
-    "read": "ないじぇりあ",
+    "reading": "ないじぇりあ",
     "region": "アフリカ",
-    "code": "ng",
-    "flag": "flags/ng.svg"
+    "flagCode": "ng",
+    "flagFile": "assets/flags/ng.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "rwanda",
     "name": "ルワンダ",
-    "read": "るわんだ",
+    "reading": "るわんだ",
     "region": "アフリカ",
-    "code": "rw",
-    "flag": "flags/rw.svg"
+    "flagCode": "rw",
+    "flagFile": "assets/flags/rw.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "sao_tome",
     "name": "サントメ・プリンシペ",
-    "read": "さんとめぷりんしぺ",
+    "reading": "さんとめぷりんしぺ",
     "region": "アフリカ",
-    "code": "st",
-    "flag": "flags/st.svg"
+    "flagCode": "st",
+    "flagFile": "assets/flags/st.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "senegal",
     "name": "セネガル",
-    "read": "せねがる",
+    "reading": "せねがる",
     "region": "アフリカ",
-    "code": "sn",
-    "flag": "flags/sn.svg"
+    "flagCode": "sn",
+    "flagFile": "assets/flags/sn.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "seychelles",
     "name": "セーシェル",
-    "read": "せーしぇる",
+    "reading": "せーしぇる",
     "region": "アフリカ",
-    "code": "sc",
-    "flag": "flags/sc.svg"
+    "flagCode": "sc",
+    "flagFile": "assets/flags/sc.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "sierra_leone",
     "name": "シエラレオネ",
-    "read": "しえられおね",
+    "reading": "しえられおね",
     "region": "アフリカ",
-    "code": "sl",
-    "flag": "flags/sl.svg"
+    "flagCode": "sl",
+    "flagFile": "assets/flags/sl.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "somalia",
     "name": "ソマリア",
-    "read": "そまりあ",
+    "reading": "そまりあ",
     "region": "アフリカ",
-    "code": "so",
-    "flag": "flags/so.svg"
+    "flagCode": "so",
+    "flagFile": "assets/flags/so.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "south_africa",
     "name": "南アフリカ",
-    "read": "みなみあふりか",
+    "reading": "みなみあふりか",
     "region": "アフリカ",
-    "code": "za",
-    "flag": "flags/za.svg"
+    "flagCode": "za",
+    "flagFile": "assets/flags/za.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "south_sudan",
     "name": "南スーダン",
-    "read": "みなみすーだん",
+    "reading": "みなみすーだん",
     "region": "アフリカ",
-    "code": "ss",
-    "flag": "flags/ss.svg"
+    "flagCode": "ss",
+    "flagFile": "assets/flags/ss.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "sudan",
     "name": "スーダン",
-    "read": "すーだん",
+    "reading": "すーだん",
     "region": "アフリカ",
-    "code": "sd",
-    "flag": "flags/sd.svg"
+    "flagCode": "sd",
+    "flagFile": "assets/flags/sd.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "tanzania",
     "name": "タンザニア",
-    "read": "たんざにあ",
+    "reading": "たんざにあ",
     "region": "アフリカ",
-    "code": "tz",
-    "flag": "flags/tz.svg"
+    "flagCode": "tz",
+    "flagFile": "assets/flags/tz.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "togo",
     "name": "トーゴ",
-    "read": "とーご",
+    "reading": "とーご",
     "region": "アフリカ",
-    "code": "tg",
-    "flag": "flags/tg.svg"
+    "flagCode": "tg",
+    "flagFile": "assets/flags/tg.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "tunisia",
     "name": "チュニジア",
-    "read": "ちゅにじあ",
+    "reading": "ちゅにじあ",
     "region": "アフリカ",
-    "code": "tn",
-    "flag": "flags/tn.svg"
+    "flagCode": "tn",
+    "flagFile": "assets/flags/tn.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "uganda",
     "name": "ウガンダ",
-    "read": "うがんだ",
+    "reading": "うがんだ",
     "region": "アフリカ",
-    "code": "ug",
-    "flag": "flags/ug.svg"
+    "flagCode": "ug",
+    "flagFile": "assets/flags/ug.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "zambia",
     "name": "ザンビア",
-    "read": "ざんびあ",
+    "reading": "ざんびあ",
     "region": "アフリカ",
-    "code": "zm",
-    "flag": "flags/zm.svg"
+    "flagCode": "zm",
+    "flagFile": "assets/flags/zm.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   },
   {
     "id": "zimbabwe",
     "name": "ジンバブエ",
-    "read": "じんばぶえ",
+    "reading": "じんばぶえ",
     "region": "アフリカ",
-    "code": "zw",
-    "flag": "flags/zw.svg"
+    "flagCode": "zw",
+    "flagFile": "assets/flags/zw.svg",
+    "capital": "",
+    "trivia": "世界の国旗しりとりで登場する国です。",
+    "aliases": []
   }
 ];
