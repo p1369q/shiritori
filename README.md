@@ -98,6 +98,24 @@ git diff --check
 
 実ブラウザで表示後、1人モード、ヒント、国旗選択、正解・不正解表示、対戦モード、結果画面、320px幅での3択横並びを確認してください。
 
+## 開発ルール
+
+変更作業を始める前に以下を確認してください。
+
+- [`docs/01_PROJECT_RULES.md`](docs/01_PROJECT_RULES.md)
+- [`docs/02_GAME_SPEC.md`](docs/02_GAME_SPEC.md)
+- [`docs/06_CODEX_WORKFLOW.md`](docs/06_CODEX_WORKFLOW.md)
+
+PR作成前に以下を確認してください。
+
+- [`docs/03_REGRESSION_CHECKLIST.md`](docs/03_REGRESSION_CHECKLIST.md)
+- [`docs/08_TEST_PLAN.md`](docs/08_TEST_PLAN.md)
+
+仕様変更や重要な決定は以下へ記録してください。
+
+- [`docs/04_RELEASE_NOTES.md`](docs/04_RELEASE_NOTES.md)
+- [`docs/05_DECISION_LOG.md`](docs/05_DECISION_LOG.md)
+
 
 ## 難易度マスターの検証結果
 
