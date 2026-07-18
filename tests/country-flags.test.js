@@ -23,21 +23,21 @@ const hashes = new Map();
 const files = new Set();
 for (const country of countries) {
   assert(country.id && country.name && country.reading, `${country.id || '(no-id)'}の基本データが不足しています`);
-  assert(country.flagCode, `${country.name}にflagCodeがありません`);
-  assert(/^[a-z]{2}$|^xk$/.test(country.flagCode), `${country.name}のflagCodeがISO風の2文字コードではありません: ${country.flagCode}`);
+  assert(country.code, `${country.name}にcodeがありません`);
+  assert(/^[a-z]{2}$|^xk$/.test(country.code), `${country.name}のcodeがISO風の2文字コードではありません: ${country.code}`);
   assert(country.flagFile, `${country.name}にflagFileパスがありません`);
   assert(!path.isAbsolute(country.flagFile), `${country.name}のflagFileパスが絶対パスです`);
   assert(!country.flagFile.startsWith('/') && !country.flagFile.startsWith('http'), `${country.name}のflagFileパスが相対パスではありません`);
-  assert(country.flagFile === `assets/flags/${country.flagCode}.svg`, `${country.name}のflagCodeとflagFileが対応していません`);
+  assert(country.flagFile === `./flags/${country.code}.svg`, `${country.name}のcodeとflagFileが対応していません`);
   assert(!files.has(country.flagFile), `${country.name}の国旗ファイルが別の国にも割り当てられています: ${country.flagFile}`);
   files.add(country.flagFile);
-  const fullPath = path.join(root, country.flagFile);
+  const fullPath = path.join(root, country.flagFile.replace(/^\.\//, ''));
   assert(fs.existsSync(fullPath), `${country.name}のSVGファイルが存在しません: ${country.flagFile}`);
   const svg = fs.readFileSync(fullPath, 'utf8');
   assert(svg.trim().length > 0, `${country.name}のSVGが空です`);
   assert(/<svg\b/i.test(svg), `${country.name}のファイルがSVGではありません`);
   assert(!/<text\b/i.test(svg), `${country.name}のSVGにtext要素があります`);
-  assert(!new RegExp(`>${country.flagCode}<`, 'i').test(svg), `${country.name}のSVGにISO国コード表示があります`);
+  assert(!new RegExp(`>${country.code}<`, 'i').test(svg), `${country.name}のSVGにISO国コード表示があります`);
   const hash = crypto.createHash('sha256').update(svg).digest('hex');
   assert(!hashes.has(hash), `${country.name}と${hashes.get(hash)}が同じSVGを使い回しています`);
   hashes.set(hash, country.name);
@@ -45,7 +45,7 @@ for (const country of countries) {
 
 const saudi = countries.find(c => c.id === 'saudi-arabia');
 assert(saudi, 'サウジアラビアのデータがありません');
-assert(saudi.name === 'サウジアラビア' && saudi.reading === 'さうじあらびあ' && saudi.flagCode === 'sa', 'サウジアラビアの国名・読み・ISOコード対応が不正です');
+assert(saudi.name === 'サウジアラビア' && saudi.reading === 'さうじあらびあ' && saudi.code === 'sa', 'サウジアラビアの国名・読み・ISOコード対応が不正です');
 assert(last(saudi.reading) === 'あ', 'サウジアラビアの読みの末尾が「あ」ではありません');
 const aAnswers = countries.filter(c => first(c.reading) === 'あ' && c.id !== saudi.id);
 assert(aAnswers.length > 0, '「あ」から始まる正解候補が存在しません');
@@ -59,6 +59,6 @@ const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 assert(html.includes('<script src="data/countries.js"></script>'), 'index.htmlが相対パスでcountries.jsを読み込んでいません');
 assert(/src="\$\{c\.flagFile\}"/.test(html), '画面表示がflagFile相対パスのimgになっていません');
 assert(!/createObjectURL|data:image|https?:\/\//.test(html), '外部URLまたはインライン画像生成が残っています');
-assert(!/flagCode.*alt|flagCode.*textContent|\.flagCode\}/.test(html), '国コードを画面上の代替表示として使っています');
+assert(!/code.*alt|code.*textContent|\.code\}/.test(html), '国コードを画面上の代替表示として使っています');
 
 console.log('country flag data checks passed');
