@@ -1,0 +1,15 @@
+const assert = require('assert');
+const fs = require('fs');
+const vm = require('vm');
+const context = { window: {} };
+context.window.window = context.window;
+vm.runInNewContext(fs.readFileSync('data/countries.js', 'utf8'), context);
+const countries = context.window.MANABI_DATA.countries;
+const script = fs.readFileSync('script.js', 'utf8');
+assert(script.includes("shiritoriExplanationDuration"));
+for (const value of ['short','normal','long','manual']) assert(script.includes(value));
+assert(script.includes('if(!state.more && delay!==null)'));
+assert(script.includes('clearTimer(); state ='));
+assert(!fs.readFileSync('data/countries.js','utf8').includes('世界の国旗しりとりで登場する国です。'));
+assert.strictEqual(countries.length, 196);
+console.log('explanation learning checks passed');

@@ -8,6 +8,6 @@ assert(!html.includes('const countries=['), 'country master must not be duplicat
 assert(script.includes("state.ui!=='ready'"), 'choices are disabled outside player input');
 assert(script.includes('コンピュータが考えています…'));
 assert(script.includes("state.hint>=3?0:state.hint+1"), 'hints must advance in stages');
-assert(script.includes("ok?2500:4000"), 'learning delay must be 2.5/4 seconds');
+assert(script.includes("short:2000, normal:4000, long:7000, manual:null"), 'four learning durations must be available');
 assert(script.includes('clearTimer()'), 'async transitions must be cancellable');
 console.log('flag-shiritori tests passed');
