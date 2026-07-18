@@ -9,6 +9,12 @@ assert(html.includes("state.hintOpen?'ヒントを隠す':'ヒントを見る'")
 assert(!/alert\s*\(/.test(html), 'flag game must not use alert for hints');
 assert(html.includes("state.ui='answering'"), 'answering state must prevent double taps');
 assert(html.includes("state.ui!=='waiting'?'disabled'"), 'choices must only be enabled while waiting');
+assert(html.includes('const CORRECT_RESULT_DELAY=2000, INCORRECT_RESULT_DELAY=3000;'), 'result delays must be 2 seconds for correct and 3 seconds for incorrect');
+assert(html.includes("ok?CORRECT_RESULT_DELAY:INCORRECT_RESULT_DELAY"), 'answer result must use the requested delays');
+assert(/id="restart"[^>]+state\.ui!==['"]waiting['"]\?'disabled'/.test(html), 'menu button must be disabled while processing or showing a result');
+assert(html.includes('function confirmRestart(){if(state.ui!=="waiting")return;'), 'menu handler must reject double operations');
+assert(html.includes('advance(correctCountry);'), 'shiritori must continue from the correct country after result display');
+assert(html.includes('`正解！ ${c.name}`'), 'correct feedback must display the country name');
 assert(!html.includes('state.show=true;renderGame()'), 'hint button must not reveal country names before answering');
 assert(html.includes('<script src="data/countries.js"></script>'), 'country data must be loaded once from data/countries.js');
 assert(!html.includes('const countries=['), 'index.html must not duplicate country data');
