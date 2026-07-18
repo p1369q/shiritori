@@ -5,7 +5,8 @@ const html = fs.readFileSync('index.html', 'utf8');
 
 assert(!html.includes('好きな文字'), 'must not render 好きな文字');
 assert(!html.includes('どれでも'), 'must not render どれでも');
-assert(html.includes('💡 ヒント ${state.hints}回'), 'hint button label must show remaining count');
+assert(html.includes("state.hintOpen?'ヒントを隠す':'ヒントを見る'"), 'hint button must toggle names without remaining count');
+assert(!/alert\s*\(/.test(html), 'flag game must not use alert for hints');
 assert(html.includes("state.ui='answering'"), 'answering state must prevent double taps');
 assert(html.includes("state.ui!=='waiting'?'disabled'"), 'choices must only be enabled while waiting');
 assert(!html.includes('state.show=true;renderGame()'), 'hint button must not reveal country names before answering');
@@ -41,7 +42,7 @@ for (const [field, label] of [['id', 'id'], ['name', 'display name'], ['flagFile
 }
 for (const c of countries) {
   assert(c.reading, `${c.id} reading must be nonempty`);
-  assert(c.flagFile && c.flagFile.endsWith(`${c.flagCode}.svg`), `${c.id} flag path must be set`);
+  assert(c.flagFile && c.flagFile.endsWith(`${c.code}.svg`), `${c.id} flag path must be set`);
   assert(c.region, `${c.id} region must be set`);
   assert(first(c.reading), `${c.id} first kana must be available`);
   assert(last(c.reading), `${c.id} last kana must be available`);
