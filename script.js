@@ -4,6 +4,7 @@
   const { Engine, cpuProfile, last } = window.FlagGame;
   const app = document.getElementById('app');
   const levels = {1:'初級',2:'中級',3:'上級',4:'激ムズ'};
+  const levelDescriptions = {1:'誰でも知っている有名な国を中心に出題',2:'旅行、スポーツ、ニュースでよく聞く国も登場',3:'国名は聞いたことがあっても国旗が難しい国も登場',4:'小国や島国を含む196か国すべてから出題'};
   const durationKey = 'shiritoriExplanationDuration';
   const durations = { short:2000, normal:4000, long:7000, manual:null };
   const durationNames = { short:'短い（2秒）', normal:'ふつう（4秒）', long:'長い（7秒）', manual:'自分で進む' };
@@ -21,7 +22,7 @@
     document.querySelectorAll('[name=explanationDuration]').forEach(input=>input.onchange=()=>{ explanationDuration=input.value; localStorage.setItem(durationKey, explanationDuration); });
   }
   function setup(mode) {
-    const cards = Object.entries(levels).map(([n,name]) => `<label class="levelCard"><input type="radio" name="quiz" value="${n}" ${n==='1'?'checked':''}><b>${name}</b><small>${['','有名な国を中心に出題','少し難しい国も登場','小国や似た国旗も登場','196か国すべてから出題'][n]}</small></label>`).join('');
+    const cards = Object.entries(levels).map(([n,name]) => `<label class="levelCard"><input type="radio" name="quiz" value="${n}" ${n==='1'?'checked':''}><b>${name}</b><small>${levelDescriptions[n]}</small></label>`).join('');
     show(`<h2>難易度を選ぼう</h2><div class="levelGrid">${cards}</div>${mode==='cpu'?`<h3>CPUの強さ</h3><select id="cpuLevel">${Object.entries(levels).map(([n,x])=>`<option value="${n}">${x}</option>`).join('')}</select>`:''}${mode==='local'?'<label>人数 <select id="players"><option>2</option><option>3</option><option>4</option></select></label>':''}<div class="row"><button id="begin">スタート</button><button id="back" class="ghost">戻る</button></div>`);
     document.getElementById('back').onclick = title;
     document.getElementById('begin').onclick = () => start(mode, +document.querySelector('[name=quiz]:checked').value, +(document.getElementById('cpuLevel')?.value || 2), +(document.getElementById('players')?.value || 2));

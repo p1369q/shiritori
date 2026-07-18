@@ -5,7 +5,7 @@
 })(typeof globalThis !== 'undefined' ? globalThis : window, function () {
   'use strict';
   const SMALL = { 'ぁ':'あ','ぃ':'い','ぅ':'う','ぇ':'え','ぉ':'お','ゃ':'や','ゅ':'ゆ','ょ':'よ','っ':'つ','ゎ':'わ' };
-  const clean = value => String(value || '').normalize('NFD').replace(/[\u3099\u309a]/g, '').normalize('NFC').replace(/ー/g, '').replace(/[ぁぃぅぇぉゃゅょっゎ]/g, c => SMALL[c]);
+  const clean = value => String(value || '').normalize('NFD').replace(/[\u3099\u309a]/g, '').normalize('NFC').replace(/[ー・･\s\p{P}\p{S}]/gu, '').replace(/[ぁぃぅぇぉゃゅょっゎ]/g, c => SMALL[c]);
   const first = c => clean(c.reading)[0] || '';
   const last = c => clean(c.reading).slice(-1);
   const shuffle = (items, random = Math.random) => items.map(value => ({ value, n: random() })).sort((a,b) => a.n-b.n).map(x => x.value);
@@ -40,15 +40,21 @@
       const tier = list => { if (!list.length) return null; const min = Math.min(...list.map(c => this.count(c))); return shuffle(list.filter(c => this.count(c) === min), this.random)[0]; };
       const preferred = c => c.id !== previous;
       const level = c => c.difficulty <= this.difficulty;
+      const nextLevel = c => c.difficulty === this.difficulty + 1;
       return tier(base.filter(c => this.count(c) === 0 && this.hasNext(c) && preferred(c) && level(c)))
         || tier(base.filter(c => this.hasNext(c) && preferred(c) && level(c)))
         || tier(base.filter(c => preferred(c) && level(c)))
+        || tier(base.filter(c => preferred(c) && nextLevel(c)))
         || tier(base.filter(preferred)) || tier(base);
     }
     choices(answer) {
-      const preferred = this.countries.filter(c => c.id !== answer.id && first(c) !== first(answer) && c.difficulty <= this.difficulty);
+      const available = this.countries.filter(c => c.id !== answer.id && first(c) !== first(answer) && c.difficulty <= this.difficulty);
       const fallback = this.countries.filter(c => c.id !== answer.id && first(c) !== first(answer));
-      return shuffle([answer, ...shuffle(preferred.length >= 2 ? preferred : fallback, this.random).slice(0,2)], this.random);
+      const pool = available.length >= 2 ? available : fallback;
+      // Harder quizzes favor plausible, same-region distractors; beginner choices stay broad and familiar.
+      const similar = this.difficulty >= 2 ? pool.filter(c => c.region === answer.region) : pool.filter(c => c.difficulty === 1);
+      const distractors = [...shuffle(similar, this.random), ...shuffle(pool.filter(c => !similar.includes(c)), this.random)].slice(0, 2);
+      return shuffle([answer, ...distractors], this.random);
     }
   }
   function cpuProfile(level, country, random = Math.random) {
