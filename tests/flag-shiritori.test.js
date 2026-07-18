@@ -6,6 +6,11 @@ const html = fs.readFileSync('index.html', 'utf8');
 assert(!html.includes('好きな文字'), 'must not render 好きな文字');
 assert(!html.includes('どれでも'), 'must not render どれでも');
 
+assert(html.includes("${state.show?'ヒントを隠す':'ヒントを見る'}"), 'hint button label must reflect visibility state');
+assert(html.includes('state.show=!state.show'), 'hint button must toggle visibility instead of forcing it on');
+assert(html.includes('state.show=false;state.answer=pickAnswer()'), 'new questions must start with hidden country names');
+assert(!html.includes('state.show=true;renderGame()'), 'hint button must not only show country names');
+
 const source = html.match(/const countries=([\s\S]*?\n\];)/)[1];
 const countries = vm.runInNewContext(source.replace(/;$/, ''));
 const byId = Object.fromEntries(countries.map(c => [c.id, c]));
