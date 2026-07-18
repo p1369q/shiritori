@@ -1,4 +1,5 @@
 window.MANABI_DATA = window.MANABI_DATA || {};
+// ゲーム独自の196か国と難易度を管理する唯一のマスター。
 window.MANABI_DATA.countries = [
   {
     "id": "japan",
@@ -7,9 +8,37 @@ window.MANABI_DATA.countries = [
     "region": "アジア",
     "code": "jp",
     "flagFile": "./flags/jp.svg",
-    "capital": "",
-    "trivia": "",
-    "aliases": []
+    "capital": "東京",
+    "trivia": "大小1万4千以上の島からなる島国です。",
+    "aliases": [],
+    "difficulty": 1,
+    "population": "1億2,380万人",
+    "populationYear": 2024,
+    "areaKm2": 377975,
+    "language": "日本語",
+    "currency": "円",
+    "famousFoods": [
+      "寿司"
+    ],
+    "famousPlaces": [
+      "富士山"
+    ],
+    "specialties": [
+      "自動車産業"
+    ],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "約1億2,380万人",
+    "areaLabel": "約377,975km²",
+    "languages": [
+      "日本語"
+    ],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "china",
@@ -18,9 +47,33 @@ window.MANABI_DATA.countries = [
     "region": "アジア",
     "code": "cn",
     "flagFile": "./flags/cn.svg",
-    "capital": "",
-    "trivia": "",
-    "aliases": []
+    "capital": "北京",
+    "trivia": "万里の長城は世界最大級の建造物群です。",
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "中国語",
+    "currency": "人民元",
+    "famousFoods": [],
+    "famousPlaces": [
+      "万里の長城"
+    ],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [
+      "中国語"
+    ],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "korea",
@@ -31,7 +84,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/kr.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "mongolia",
@@ -42,7 +115,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/mn.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "brunei",
@@ -53,7 +146,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/bn.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "cambodia",
@@ -64,7 +177,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/kh.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "indonesia",
@@ -75,7 +208,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/id.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "laos",
@@ -86,7 +239,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/la.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "malaysia",
@@ -97,7 +270,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/my.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "myanmar",
@@ -108,7 +301,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/mm.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "philippines",
@@ -119,7 +332,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ph.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "singapore",
@@ -130,7 +363,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/sg.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "thailand",
@@ -139,9 +392,38 @@ window.MANABI_DATA.countries = [
     "region": "アジア",
     "code": "th",
     "flagFile": "./flags/th.svg",
-    "capital": "",
-    "trivia": "",
-    "aliases": []
+    "capital": "バンコク",
+    "trivia": "東南アジアで植民地統治を受けなかった国として知られます。",
+    "aliases": [],
+    "difficulty": 1,
+    "population": "7,200万人",
+    "populationYear": 2025,
+    "areaKm2": 513120,
+    "language": "タイ語",
+    "currency": "バーツ",
+    "famousFoods": [
+      "トムヤムクン"
+    ],
+    "famousPlaces": [
+      "ワット・アルン"
+    ],
+    "specialties": [
+      "天然ゴム",
+      "観光業"
+    ],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "hints": [
+      "東南アジアにある国です",
+      "首都はバンコクです",
+      "トムヤムクンや伝統的な格闘技で有名です"
+    ],
+    "populationLabel": "約7,200万人",
+    "areaLabel": "約513,120km²",
+    "languages": [
+      "タイ語"
+    ]
   },
   {
     "id": "timor-leste",
@@ -152,7 +434,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/tl.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは8文字です"
+    ]
   },
   {
     "id": "vietnam",
@@ -163,7 +465,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/vn.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "india",
@@ -172,9 +494,36 @@ window.MANABI_DATA.countries = [
     "region": "アジア",
     "code": "in",
     "flagFile": "./flags/in.svg",
-    "capital": "",
+    "capital": "ニューデリー",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "ヒンディー語、英語など",
+    "currency": "インド・ルピー",
+    "famousFoods": [
+      "カレー"
+    ],
+    "famousPlaces": [
+      "タージ・マハル"
+    ],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [
+      "ヒンディー語",
+      "英語"
+    ],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "pakistan",
@@ -185,7 +534,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/pk.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "bangladesh",
@@ -196,7 +565,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/bd.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは7文字です"
+    ]
   },
   {
     "id": "sri-lanka",
@@ -207,7 +596,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/lk.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "nepal",
@@ -218,7 +627,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/np.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "bhutan",
@@ -229,7 +658,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/bt.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "maldives",
@@ -240,7 +689,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/mv.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "kazakhstan",
@@ -251,7 +720,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/kz.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "kyrgyzstan",
@@ -262,7 +751,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/kg.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "tajikistan",
@@ -273,7 +782,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/tj.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "turkmenistan",
@@ -284,7 +813,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/tm.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは8文字です"
+    ]
   },
   {
     "id": "uzbekistan",
@@ -295,7 +844,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/uz.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは7文字です"
+    ]
   },
   {
     "id": "australia",
@@ -304,9 +873,33 @@ window.MANABI_DATA.countries = [
     "region": "大洋州",
     "code": "au",
     "flagFile": "./flags/au.svg",
-    "capital": "",
+    "capital": "キャンベラ",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "英語",
+    "currency": "オーストラリア・ドル",
+    "famousFoods": [],
+    "famousPlaces": [
+      "グレート・バリア・リーフ"
+    ],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [
+      "英語"
+    ],
+    "hints": [
+      "大洋州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは7文字です"
+    ]
   },
   {
     "id": "new-zealand",
@@ -317,7 +910,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/nz.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "大洋州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは8文字です"
+    ]
   },
   {
     "id": "fiji",
@@ -328,7 +941,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/fj.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "大洋州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "kiribati",
@@ -339,7 +972,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ki.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "大洋州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "marshall-islands",
@@ -350,18 +1003,58 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/mh.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "大洋州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは9文字です"
+    ]
   },
   {
     "id": "micronesia",
-    "name": "ミクロネシア",
-    "reading": "みくろねしあ",
+    "name": "ミクロネシア連邦",
+    "reading": "みくろねしあれんぽう",
     "region": "大洋州",
     "code": "fm",
     "flagFile": "./flags/fm.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "大洋州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "nauru",
@@ -372,7 +1065,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/nr.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "大洋州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "palau",
@@ -383,7 +1096,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/pw.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "大洋州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "papua_new_guinea",
@@ -394,7 +1127,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/pg.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "大洋州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは9文字です"
+    ]
   },
   {
     "id": "samoa",
@@ -405,7 +1158,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ws.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "大洋州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "solomon_islands",
@@ -416,7 +1189,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/sb.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "大洋州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは8文字です"
+    ]
   },
   {
     "id": "tonga",
@@ -427,7 +1220,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/to.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "大洋州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "tuvalu",
@@ -438,7 +1251,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/tv.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "大洋州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "vanuatu",
@@ -449,29 +1282,89 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/vu.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "大洋州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
-    "id": "cook-islands",
-    "name": "クック諸島",
-    "reading": "くっくしょとう",
-    "region": "大洋州",
-    "code": "ck",
-    "flagFile": "./flags/ck.svg",
+    "id": "north-korea",
+    "name": "北朝鮮",
+    "reading": "きたちょうせん",
+    "region": "アジア",
+    "code": "kp",
+    "flagFile": "./flags/kp.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アジアに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは7文字です"
+    ]
   },
   {
-    "id": "niue",
-    "name": "ニウエ",
-    "reading": "にうえ",
-    "region": "大洋州",
-    "code": "nu",
-    "flagFile": "./flags/nu.svg",
+    "id": "palestine",
+    "name": "パレスチナ",
+    "reading": "ぱれすちな",
+    "region": "中東",
+    "code": "ps",
+    "flagFile": "./flags/ps.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中東に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "usa",
@@ -480,9 +1373,35 @@ window.MANABI_DATA.countries = [
     "region": "北米",
     "code": "us",
     "flagFile": "./flags/us.svg",
-    "capital": "",
-    "trivia": "",
-    "aliases": []
+    "capital": "ワシントンD.C.",
+    "trivia": "50の州と一つの連邦区で構成されています。",
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "英語",
+    "currency": "米ドル",
+    "famousFoods": [
+      "ハンバーガー"
+    ],
+    "famousPlaces": [
+      "自由の女神"
+    ],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [
+      "英語"
+    ],
+    "hints": [
+      "北米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "canada",
@@ -493,7 +1412,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ca.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "北米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "mexico",
@@ -504,7 +1443,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/mx.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "北米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "antigua-barbuda",
@@ -515,7 +1474,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ag.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは11文字です"
+    ]
   },
   {
     "id": "bahamas",
@@ -526,7 +1505,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/bs.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "barbados",
@@ -537,7 +1536,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/bb.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "belize",
@@ -548,7 +1567,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/bz.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "costa_rica",
@@ -559,7 +1598,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/cr.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "cuba",
@@ -570,7 +1629,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/cu.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "dominica",
@@ -581,7 +1660,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/dm.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "dominican-republic",
@@ -592,7 +1691,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/do.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは10文字です"
+    ]
   },
   {
     "id": "el-salvador",
@@ -603,7 +1722,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/sv.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは7文字です"
+    ]
   },
   {
     "id": "grenada",
@@ -614,7 +1753,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/gd.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "guatemala",
@@ -625,7 +1784,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/gt.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "haiti",
@@ -636,7 +1815,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ht.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "honduras",
@@ -647,7 +1846,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/hn.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "jamaica",
@@ -658,7 +1877,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/jm.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "nicaragua",
@@ -669,7 +1908,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ni.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "panama",
@@ -680,7 +1939,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/pa.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "saint-kitts-nevis",
@@ -691,7 +1970,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/kn.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは14文字です"
+    ]
   },
   {
     "id": "saint_lucia",
@@ -702,18 +2001,58 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/lc.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "saint-vincent",
-    "name": "セントビンセント",
-    "reading": "せんとびんせんと",
+    "name": "セントビンセント及びグレナディーン諸島",
+    "reading": "せんとびんせんとおよびぐれなでぃーんしょとう",
     "region": "中南米",
     "code": "vc",
     "flagFile": "./flags/vc.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは8文字です"
+    ]
   },
   {
     "id": "trinidad_tobago",
@@ -724,7 +2063,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/tt.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは9文字です"
+    ]
   },
   {
     "id": "argentina",
@@ -735,7 +2094,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ar.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "bolivia",
@@ -746,7 +2125,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/bo.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "brazil",
@@ -755,9 +2154,33 @@ window.MANABI_DATA.countries = [
     "region": "中南米",
     "code": "br",
     "flagFile": "./flags/br.svg",
-    "capital": "",
-    "trivia": "",
-    "aliases": []
+    "capital": "ブラジリア",
+    "trivia": "南米でポルトガル語を公用語とする最大の国です。",
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "ポルトガル語",
+    "currency": "レアル",
+    "famousFoods": [],
+    "famousPlaces": [
+      "アマゾン川"
+    ],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [
+      "ポルトガル語"
+    ],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "chile",
@@ -768,7 +2191,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/cl.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは2文字です"
+    ]
   },
   {
     "id": "colombia",
@@ -779,7 +2222,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/co.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "ecuador",
@@ -790,7 +2253,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ec.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "guyana",
@@ -801,7 +2284,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/gy.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "paraguay",
@@ -812,7 +2315,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/py.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "peru",
@@ -823,7 +2346,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/pe.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "suriname",
@@ -834,7 +2377,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/sr.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "uruguay",
@@ -845,7 +2408,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/uy.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "venezuela",
@@ -856,7 +2439,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ve.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中南米に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "uk",
@@ -867,7 +2470,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/gb.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "ireland",
@@ -878,7 +2501,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ie.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "france",
@@ -887,9 +2530,35 @@ window.MANABI_DATA.countries = [
     "region": "欧州",
     "code": "fr",
     "flagFile": "./flags/fr.svg",
-    "capital": "",
+    "capital": "パリ",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "フランス語",
+    "currency": "ユーロ",
+    "famousFoods": [
+      "クロワッサン"
+    ],
+    "famousPlaces": [
+      "エッフェル塔"
+    ],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [
+      "フランス語"
+    ],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "germany",
@@ -900,7 +2569,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/de.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "italy",
@@ -909,9 +2598,35 @@ window.MANABI_DATA.countries = [
     "region": "欧州",
     "code": "it",
     "flagFile": "./flags/it.svg",
-    "capital": "",
+    "capital": "ローマ",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "イタリア語",
+    "currency": "ユーロ",
+    "famousFoods": [
+      "ピッツァ"
+    ],
+    "famousPlaces": [
+      "コロッセオ"
+    ],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [
+      "イタリア語"
+    ],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "spain",
@@ -922,7 +2637,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/es.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "portugal",
@@ -933,7 +2668,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/pt.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "netherlands",
@@ -944,7 +2699,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/nl.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "belgium",
@@ -955,7 +2730,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/be.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "luxembourg",
@@ -966,7 +2761,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/lu.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは7文字です"
+    ]
   },
   {
     "id": "switzerland",
@@ -977,7 +2792,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ch.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "austria",
@@ -988,7 +2823,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/at.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "sweden",
@@ -999,7 +2854,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/se.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "norway",
@@ -1010,7 +2885,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/no.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "denmark",
@@ -1021,7 +2916,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/dk.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "finland",
@@ -1032,7 +2947,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/fi.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "iceland",
@@ -1043,7 +2978,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/is.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "estonia",
@@ -1054,7 +3009,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ee.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "latvia",
@@ -1065,7 +3040,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/lv.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "lithuania",
@@ -1076,7 +3071,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/lt.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "poland",
@@ -1087,7 +3102,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/pl.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "czechia",
@@ -1098,7 +3133,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/cz.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "slovakia",
@@ -1109,7 +3164,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/sk.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "hungary",
@@ -1120,7 +3195,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/hu.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "romania",
@@ -1131,7 +3226,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ro.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "bulgaria",
@@ -1142,7 +3257,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/bg.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "slovenia",
@@ -1153,7 +3288,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/si.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "croatia",
@@ -1164,7 +3319,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/hr.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "bosnia",
@@ -1175,7 +3350,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ba.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは11文字です"
+    ]
   },
   {
     "id": "serbia",
@@ -1186,7 +3381,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/rs.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "montenegro",
@@ -1197,7 +3412,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/me.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "kosovo",
@@ -1208,7 +3443,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/xk.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "albania",
@@ -1219,7 +3474,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/al.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "north_macedonia",
@@ -1230,7 +3505,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/mk.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは7文字です"
+    ]
   },
   {
     "id": "greece",
@@ -1241,7 +3536,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/gr.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "malta",
@@ -1252,7 +3567,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/mt.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "cyprus",
@@ -1263,7 +3598,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/cy.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "moldova",
@@ -1274,7 +3629,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/md.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "ukraine",
@@ -1285,7 +3660,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ua.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "belarus",
@@ -1296,7 +3691,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/by.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "russia",
@@ -1307,7 +3722,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ru.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "andorra",
@@ -1318,7 +3753,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ad.svg",
     "capital": "アンドラ・ラ・ベリャ",
     "trivia": "フランスとスペインの間にある小さな国です。",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "monaco",
@@ -1329,7 +3784,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/mc.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "san_marino",
@@ -1340,7 +3815,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/sm.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "vatican",
@@ -1351,7 +3846,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/va.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "liechtenstein",
@@ -1362,7 +3877,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/li.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは9文字です"
+    ]
   },
   {
     "id": "armenia",
@@ -1373,7 +3908,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/am.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "azerbaijan",
@@ -1384,7 +3939,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/az.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは8文字です"
+    ]
   },
   {
     "id": "georgia",
@@ -1395,7 +3970,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ge.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "欧州に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "uae",
@@ -1406,7 +4001,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ae.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中東に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは14文字です"
+    ]
   },
   {
     "id": "bahrain",
@@ -1417,7 +4032,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/bh.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中東に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "iran",
@@ -1428,7 +4063,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ir.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中東に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "iraq",
@@ -1439,7 +4094,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/iq.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中東に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "israel",
@@ -1450,7 +4125,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/il.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中東に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "jordan",
@@ -1461,7 +4156,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/jo.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中東に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "kuwait",
@@ -1472,7 +4187,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/kw.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中東に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "lebanon",
@@ -1483,7 +4218,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/lb.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中東に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "oman",
@@ -1494,7 +4249,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/om.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中東に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "qatar",
@@ -1505,7 +4280,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/qa.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中東に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "saudi-arabia",
@@ -1516,7 +4311,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/sa.svg",
     "capital": "リヤド",
     "trivia": "アラビア半島にある大きな国です。",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中東に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは7文字です"
+    ]
   },
   {
     "id": "syria",
@@ -1527,7 +4342,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/sy.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中東に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "turkey",
@@ -1538,7 +4373,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/tr.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中東に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "yemen",
@@ -1549,7 +4404,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ye.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中東に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "afghanistan",
@@ -1560,7 +4435,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/af.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "中東に位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは7文字です"
+    ]
   },
   {
     "id": "algeria",
@@ -1571,7 +4466,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/dz.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "angola",
@@ -1582,7 +4497,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ao.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "benin",
@@ -1593,7 +4528,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/bj.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "botswana",
@@ -1604,7 +4559,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/bw.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "burkina_faso",
@@ -1615,7 +4590,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/bf.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは7文字です"
+    ]
   },
   {
     "id": "burundi",
@@ -1626,7 +4621,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/bi.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "cabo_verde",
@@ -1637,7 +4652,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/cv.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "cameroon",
@@ -1648,7 +4683,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/cm.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "central_african_republic",
@@ -1659,7 +4714,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/cf.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは9文字です"
+    ]
   },
   {
     "id": "chad",
@@ -1670,7 +4745,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/td.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "comoros",
@@ -1681,7 +4776,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/km.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "congo_republic",
@@ -1692,7 +4807,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/cg.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは9文字です"
+    ]
   },
   {
     "id": "drc",
@@ -1703,7 +4838,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/cd.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは13文字です"
+    ]
   },
   {
     "id": "cote_divoire",
@@ -1714,7 +4869,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ci.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは8文字です"
+    ]
   },
   {
     "id": "djibouti",
@@ -1725,7 +4900,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/dj.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "egypt",
@@ -1736,7 +4931,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/eg.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "equatorial_guinea",
@@ -1747,7 +4962,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/gq.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは7文字です"
+    ]
   },
   {
     "id": "eritrea",
@@ -1758,7 +4993,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/er.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "eswatini",
@@ -1769,7 +5024,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/sz.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "ethiopia",
@@ -1780,7 +5055,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/et.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "gabon",
@@ -1791,7 +5086,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ga.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "gambia",
@@ -1802,7 +5117,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/gm.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "ghana",
@@ -1813,7 +5148,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/gh.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "guinea",
@@ -1824,7 +5179,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/gn.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "guinea_bissau",
@@ -1835,7 +5210,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/gw.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "kenya",
@@ -1846,7 +5241,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ke.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "lesotho",
@@ -1857,7 +5272,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ls.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "liberia",
@@ -1868,7 +5303,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/lr.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "libya",
@@ -1879,7 +5334,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ly.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "madagascar",
@@ -1890,7 +5365,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/mg.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "malawi",
@@ -1901,7 +5396,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/mw.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "mali",
@@ -1912,7 +5427,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ml.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは2文字です"
+    ]
   },
   {
     "id": "mauritania",
@@ -1923,7 +5458,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/mr.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "mauritius",
@@ -1934,7 +5489,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/mu.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "morocco",
@@ -1945,7 +5520,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ma.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "mozambique",
@@ -1956,7 +5551,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/mz.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "namibia",
@@ -1967,7 +5582,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/na.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "niger",
@@ -1978,7 +5613,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ne.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "nigeria",
@@ -1989,7 +5644,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ng.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "rwanda",
@@ -2000,7 +5675,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/rw.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "sao_tome",
@@ -2011,7 +5706,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/st.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは9文字です"
+    ]
   },
   {
     "id": "senegal",
@@ -2022,7 +5737,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/sn.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "seychelles",
@@ -2033,7 +5768,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/sc.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "sierra_leone",
@@ -2044,7 +5799,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/sl.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは6文字です"
+    ]
   },
   {
     "id": "somalia",
@@ -2055,7 +5830,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/so.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "south_africa",
@@ -2066,7 +5861,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/za.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 1,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは7文字です"
+    ]
   },
   {
     "id": "south_sudan",
@@ -2077,7 +5892,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ss.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは7文字です"
+    ]
   },
   {
     "id": "sudan",
@@ -2088,7 +5923,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/sd.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "tanzania",
@@ -2099,7 +5954,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/tz.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 2,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "togo",
@@ -2110,7 +5985,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/tg.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 4,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは3文字です"
+    ]
   },
   {
     "id": "tunisia",
@@ -2121,7 +6016,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/tn.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   },
   {
     "id": "uganda",
@@ -2132,7 +6047,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/ug.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "zambia",
@@ -2143,7 +6078,27 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/zm.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは4文字です"
+    ]
   },
   {
     "id": "zimbabwe",
@@ -2154,34 +6109,26 @@ window.MANABI_DATA.countries = [
     "flagFile": "./flags/zw.svg",
     "capital": "",
     "trivia": "",
-    "aliases": []
+    "aliases": [],
+    "difficulty": 3,
+    "population": "",
+    "populationYear": "",
+    "areaKm2": "",
+    "language": "",
+    "currency": "",
+    "famousFoods": [],
+    "famousPlaces": [],
+    "specialties": [],
+    "flagMeaning": "",
+    "extraFacts": [],
+    "worldHeritage": [],
+    "populationLabel": "",
+    "areaLabel": "",
+    "languages": [],
+    "hints": [
+      "アフリカに位置する国です",
+      "国旗の色や図柄をよく観察してみましょう",
+      "読みは5文字です"
+    ]
   }
 ];
-
-// Quiz metadata lives beside the canonical country records so the UI and game
-// engine never maintain a second country list.  Unknown optional facts remain
-// empty and are intentionally hidden by the learning card.
-(() => {
-  const easy = new Set(['japan','usa','china','korea','united-kingdom','france','germany','italy','spain','brazil','canada','australia','india','thailand','russia','mexico','argentina','egypt','turkey','switzerland','netherlands','sweden','norway','new-zealand','singapore']);
-  const intermediate = new Set(['indonesia','vietnam','philippines','malaysia','pakistan','bangladesh','nepal','sri-lanka','mongolia','greece','portugal','belgium','denmark','finland','poland','austria','ireland','ukraine','south-africa','kenya','morocco','saudi-arabia','israel','iran','iraq','chile','peru','colombia','cuba','jamaica']);
-  const advanced = new Set(['cambodia','laos','myanmar','brunei','bhutan','maldives','kazakhstan','uzbekistan','georgia','armenia','azerbaijan','croatia','serbia','romania','bulgaria','hungary','iceland','luxembourg','monaco','cyprus','malta','tunisia','algeria','ethiopia','ghana','tanzania','uganda','zimbabwe','bolivia','uruguay','paraguay','ecuador','costa-rica','panama','dominican-republic']);
-  const facts = {
-    japan:{capital:'東京',population:'1億2,380万人',populationYear:2024,areaKm2:377975,language:'日本語',currency:'円',famousFoods:['寿司'],famousPlaces:['富士山'],specialties:['自動車産業'],trivia:'大小1万4千以上の島からなる島国です。'},
-    thailand:{capital:'バンコク',population:'7,200万人',populationYear:2025,areaKm2:513120,language:'タイ語',currency:'バーツ',famousFoods:['トムヤムクン'],famousPlaces:['ワット・アルン'],specialties:['天然ゴム','観光業'],trivia:'東南アジアで植民地統治を受けなかった国として知られます。',hints:['東南アジアにある国です','首都はバンコクです','トムヤムクンや伝統的な格闘技で有名です']},
-    usa:{capital:'ワシントンD.C.',language:'英語',currency:'米ドル',famousPlaces:['自由の女神'],famousFoods:['ハンバーガー'],trivia:'50の州と一つの連邦区で構成されています。'},
-    china:{capital:'北京',language:'中国語',currency:'人民元',famousPlaces:['万里の長城'],trivia:'万里の長城は世界最大級の建造物群です。'},
-    france:{capital:'パリ',language:'フランス語',currency:'ユーロ',famousPlaces:['エッフェル塔'],famousFoods:['クロワッサン']},
-    italy:{capital:'ローマ',language:'イタリア語',currency:'ユーロ',famousPlaces:['コロッセオ'],famousFoods:['ピッツァ']},
-    india:{capital:'ニューデリー',language:'ヒンディー語、英語など',currency:'インド・ルピー',famousPlaces:['タージ・マハル'],famousFoods:['カレー']},
-    australia:{capital:'キャンベラ',language:'英語',currency:'オーストラリア・ドル',famousPlaces:['グレート・バリア・リーフ']},
-    brazil:{capital:'ブラジリア',language:'ポルトガル語',currency:'レアル',famousPlaces:['アマゾン川'],trivia:'南米でポルトガル語を公用語とする最大の国です。'}
-  };
-  for (const country of window.MANABI_DATA.countries) {
-    country.difficulty = easy.has(country.id) ? 1 : intermediate.has(country.id) ? 2 : advanced.has(country.id) ? 3 : 4;
-    Object.assign(country, { population:'', populationYear:'', areaKm2:'', language:'', currency:'', famousFoods:[], famousPlaces:[], specialties:[], flagMeaning:'', extraFacts:[], worldHeritage:[] }, facts[country.id] || {});
-    country.populationLabel = country.population ? (String(country.population).startsWith('約') ? String(country.population) : `約${country.population}`) : '';
-    country.areaLabel = country.areaKm2 ? `約${Number(country.areaKm2).toLocaleString('ja-JP')}km²` : '';
-    country.languages = country.languages || (country.language ? String(country.language).split(/、|など/).filter(Boolean) : []);
-    country.hints = country.hints || [`${country.region}に位置する国です`,'国旗の色や図柄をよく観察してみましょう',`読みは${country.reading.length}文字です`];
-  }
-})();
