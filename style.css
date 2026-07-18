@@ -93,3 +93,16 @@ select,input{min-width:0;border:1px solid #c9d8e6;border-radius:12px;padding:11p
 .playerBadge strong,.playerBadge span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .bestUpdate{font-weight:900;color:var(--primary);margin:.2rem 0}
 .resultList li{margin:.35rem 0}
+.modeGrid,.levelGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;width:100%}
+.levelCard{display:grid;grid-template-columns:auto 1fr;gap:3px 8px;align-items:center;border:1px solid var(--line);border-radius:14px;padding:12px;background:#fff;cursor:pointer}
+.levelCard small{grid-column:2;color:var(--muted)}
+.badge{justify-self:start;background:#e8f2ff;color:#145cae;border-radius:999px;padding:4px 9px;font-size:.75rem;font-weight:800}
+.versus{display:grid;grid-template-columns:1fr auto 1fr;gap:6px;align-items:center;text-align:center;font-size:clamp(.7rem,2.5vw,.9rem)}
+.versus>*{padding:6px;border-radius:10px;background:var(--assist)}
+.thinking{text-align:center;margin:0;color:var(--primary);font-weight:800;animation:pulse 1s infinite alternate}
+.hintPanel{display:grid;gap:3px;font-size:.84rem;color:#405366}
+.hintPanel p{margin:0;padding:4px 8px;background:var(--assist);border-radius:8px}
+.learnSheet{position:relative;z-index:2;display:grid;grid-template-columns:auto 1fr auto;gap:5px 10px;align-items:center;border:1px solid var(--line);border-radius:14px;padding:8px;background:#fff;box-shadow:0 -3px 14px #28445c18;font-size:.86rem}
+.learnSheet p,.learnSheet .details{grid-column:1/-1;margin:0}.learnSheet #next{grid-column:3}.learnSheet button{min-height:32px;padding:.3rem .65rem}
+@keyframes pulse{to{opacity:.5}}
+@media(max-width:500px){.modeGrid,.levelGrid{grid-template-columns:1fr}.learnSheet{grid-template-columns:1fr auto}.learnSheet #next{grid-column:2}.versus{font-size:.66rem}.screen{border-radius:12px}}
