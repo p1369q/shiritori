@@ -1,1 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><path fill="#00b5e2" d="M0 0h1200v200H0z"/><path fill="#ef3340" d="M0 200h1200v200H0z"/><path fill="#509e2f" d="M0 400h1200v200H0z"/><circle cx="580" cy="300" r="90" fill="#fff"/><circle cx="610" cy="300" r="75" fill="#ef3340"/><polygon fill="#fff" points="720.000,220.000 732.246,270.436 776.569,243.431 749.564,287.754 800.000,300.000 749.564,312.246 776.569,356.569 732.246,329.564 720.000,380.000 707.754,329.564 663.431,356.569 690.436,312.246 640.000,300.000 690.436,287.754 663.431,243.431 707.754,270.436"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 90" role="img" aria-label="アゼルバイジャンの国旗">
+  <rect width="120" height="90" fill="#fff"/>
+  <text x="60" y="59" text-anchor="middle" font-family="Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji, sans-serif" font-size="62">🇦🇿</text>
+</svg>
