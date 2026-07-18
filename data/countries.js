@@ -8,7 +8,7 @@ window.MANABI_DATA.countries = [
     "code": "jp",
     "flagFile": "./flags/jp.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -19,7 +19,7 @@ window.MANABI_DATA.countries = [
     "code": "cn",
     "flagFile": "./flags/cn.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -30,7 +30,7 @@ window.MANABI_DATA.countries = [
     "code": "kr",
     "flagFile": "./flags/kr.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -41,7 +41,7 @@ window.MANABI_DATA.countries = [
     "code": "mn",
     "flagFile": "./flags/mn.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -52,7 +52,7 @@ window.MANABI_DATA.countries = [
     "code": "bn",
     "flagFile": "./flags/bn.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -63,7 +63,7 @@ window.MANABI_DATA.countries = [
     "code": "kh",
     "flagFile": "./flags/kh.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -74,7 +74,7 @@ window.MANABI_DATA.countries = [
     "code": "id",
     "flagFile": "./flags/id.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -85,7 +85,7 @@ window.MANABI_DATA.countries = [
     "code": "la",
     "flagFile": "./flags/la.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -96,7 +96,7 @@ window.MANABI_DATA.countries = [
     "code": "my",
     "flagFile": "./flags/my.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -107,7 +107,7 @@ window.MANABI_DATA.countries = [
     "code": "mm",
     "flagFile": "./flags/mm.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -118,7 +118,7 @@ window.MANABI_DATA.countries = [
     "code": "ph",
     "flagFile": "./flags/ph.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -129,7 +129,7 @@ window.MANABI_DATA.countries = [
     "code": "sg",
     "flagFile": "./flags/sg.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -140,7 +140,7 @@ window.MANABI_DATA.countries = [
     "code": "th",
     "flagFile": "./flags/th.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -151,7 +151,7 @@ window.MANABI_DATA.countries = [
     "code": "tl",
     "flagFile": "./flags/tl.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -162,7 +162,7 @@ window.MANABI_DATA.countries = [
     "code": "vn",
     "flagFile": "./flags/vn.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -173,7 +173,7 @@ window.MANABI_DATA.countries = [
     "code": "in",
     "flagFile": "./flags/in.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -184,7 +184,7 @@ window.MANABI_DATA.countries = [
     "code": "pk",
     "flagFile": "./flags/pk.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -195,7 +195,7 @@ window.MANABI_DATA.countries = [
     "code": "bd",
     "flagFile": "./flags/bd.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -206,7 +206,7 @@ window.MANABI_DATA.countries = [
     "code": "lk",
     "flagFile": "./flags/lk.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -217,7 +217,7 @@ window.MANABI_DATA.countries = [
     "code": "np",
     "flagFile": "./flags/np.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -228,7 +228,7 @@ window.MANABI_DATA.countries = [
     "code": "bt",
     "flagFile": "./flags/bt.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -239,7 +239,7 @@ window.MANABI_DATA.countries = [
     "code": "mv",
     "flagFile": "./flags/mv.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -250,7 +250,7 @@ window.MANABI_DATA.countries = [
     "code": "kz",
     "flagFile": "./flags/kz.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -261,7 +261,7 @@ window.MANABI_DATA.countries = [
     "code": "kg",
     "flagFile": "./flags/kg.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -272,7 +272,7 @@ window.MANABI_DATA.countries = [
     "code": "tj",
     "flagFile": "./flags/tj.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -283,7 +283,7 @@ window.MANABI_DATA.countries = [
     "code": "tm",
     "flagFile": "./flags/tm.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -294,7 +294,7 @@ window.MANABI_DATA.countries = [
     "code": "uz",
     "flagFile": "./flags/uz.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -305,7 +305,7 @@ window.MANABI_DATA.countries = [
     "code": "au",
     "flagFile": "./flags/au.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -316,7 +316,7 @@ window.MANABI_DATA.countries = [
     "code": "nz",
     "flagFile": "./flags/nz.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -327,7 +327,7 @@ window.MANABI_DATA.countries = [
     "code": "fj",
     "flagFile": "./flags/fj.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -338,7 +338,7 @@ window.MANABI_DATA.countries = [
     "code": "ki",
     "flagFile": "./flags/ki.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -349,7 +349,7 @@ window.MANABI_DATA.countries = [
     "code": "mh",
     "flagFile": "./flags/mh.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -360,7 +360,7 @@ window.MANABI_DATA.countries = [
     "code": "fm",
     "flagFile": "./flags/fm.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -371,7 +371,7 @@ window.MANABI_DATA.countries = [
     "code": "nr",
     "flagFile": "./flags/nr.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -382,7 +382,7 @@ window.MANABI_DATA.countries = [
     "code": "pw",
     "flagFile": "./flags/pw.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -393,7 +393,7 @@ window.MANABI_DATA.countries = [
     "code": "pg",
     "flagFile": "./flags/pg.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -404,7 +404,7 @@ window.MANABI_DATA.countries = [
     "code": "ws",
     "flagFile": "./flags/ws.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -415,7 +415,7 @@ window.MANABI_DATA.countries = [
     "code": "sb",
     "flagFile": "./flags/sb.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -426,7 +426,7 @@ window.MANABI_DATA.countries = [
     "code": "to",
     "flagFile": "./flags/to.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -437,7 +437,7 @@ window.MANABI_DATA.countries = [
     "code": "tv",
     "flagFile": "./flags/tv.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -448,7 +448,7 @@ window.MANABI_DATA.countries = [
     "code": "vu",
     "flagFile": "./flags/vu.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -459,7 +459,7 @@ window.MANABI_DATA.countries = [
     "code": "ck",
     "flagFile": "./flags/ck.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -470,7 +470,7 @@ window.MANABI_DATA.countries = [
     "code": "nu",
     "flagFile": "./flags/nu.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -481,7 +481,7 @@ window.MANABI_DATA.countries = [
     "code": "us",
     "flagFile": "./flags/us.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -492,7 +492,7 @@ window.MANABI_DATA.countries = [
     "code": "ca",
     "flagFile": "./flags/ca.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -503,7 +503,7 @@ window.MANABI_DATA.countries = [
     "code": "mx",
     "flagFile": "./flags/mx.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -514,7 +514,7 @@ window.MANABI_DATA.countries = [
     "code": "ag",
     "flagFile": "./flags/ag.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -525,7 +525,7 @@ window.MANABI_DATA.countries = [
     "code": "bs",
     "flagFile": "./flags/bs.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -536,7 +536,7 @@ window.MANABI_DATA.countries = [
     "code": "bb",
     "flagFile": "./flags/bb.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -547,7 +547,7 @@ window.MANABI_DATA.countries = [
     "code": "bz",
     "flagFile": "./flags/bz.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -558,7 +558,7 @@ window.MANABI_DATA.countries = [
     "code": "cr",
     "flagFile": "./flags/cr.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -569,7 +569,7 @@ window.MANABI_DATA.countries = [
     "code": "cu",
     "flagFile": "./flags/cu.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -580,7 +580,7 @@ window.MANABI_DATA.countries = [
     "code": "dm",
     "flagFile": "./flags/dm.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -591,7 +591,7 @@ window.MANABI_DATA.countries = [
     "code": "do",
     "flagFile": "./flags/do.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -602,7 +602,7 @@ window.MANABI_DATA.countries = [
     "code": "sv",
     "flagFile": "./flags/sv.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -613,7 +613,7 @@ window.MANABI_DATA.countries = [
     "code": "gd",
     "flagFile": "./flags/gd.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -624,7 +624,7 @@ window.MANABI_DATA.countries = [
     "code": "gt",
     "flagFile": "./flags/gt.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -635,7 +635,7 @@ window.MANABI_DATA.countries = [
     "code": "ht",
     "flagFile": "./flags/ht.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -646,7 +646,7 @@ window.MANABI_DATA.countries = [
     "code": "hn",
     "flagFile": "./flags/hn.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -657,7 +657,7 @@ window.MANABI_DATA.countries = [
     "code": "jm",
     "flagFile": "./flags/jm.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -668,7 +668,7 @@ window.MANABI_DATA.countries = [
     "code": "ni",
     "flagFile": "./flags/ni.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -679,7 +679,7 @@ window.MANABI_DATA.countries = [
     "code": "pa",
     "flagFile": "./flags/pa.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -690,7 +690,7 @@ window.MANABI_DATA.countries = [
     "code": "kn",
     "flagFile": "./flags/kn.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -701,7 +701,7 @@ window.MANABI_DATA.countries = [
     "code": "lc",
     "flagFile": "./flags/lc.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -712,7 +712,7 @@ window.MANABI_DATA.countries = [
     "code": "vc",
     "flagFile": "./flags/vc.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -723,7 +723,7 @@ window.MANABI_DATA.countries = [
     "code": "tt",
     "flagFile": "./flags/tt.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -734,7 +734,7 @@ window.MANABI_DATA.countries = [
     "code": "ar",
     "flagFile": "./flags/ar.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -745,7 +745,7 @@ window.MANABI_DATA.countries = [
     "code": "bo",
     "flagFile": "./flags/bo.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -756,7 +756,7 @@ window.MANABI_DATA.countries = [
     "code": "br",
     "flagFile": "./flags/br.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -767,7 +767,7 @@ window.MANABI_DATA.countries = [
     "code": "cl",
     "flagFile": "./flags/cl.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -778,7 +778,7 @@ window.MANABI_DATA.countries = [
     "code": "co",
     "flagFile": "./flags/co.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -789,7 +789,7 @@ window.MANABI_DATA.countries = [
     "code": "ec",
     "flagFile": "./flags/ec.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -800,7 +800,7 @@ window.MANABI_DATA.countries = [
     "code": "gy",
     "flagFile": "./flags/gy.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -811,7 +811,7 @@ window.MANABI_DATA.countries = [
     "code": "py",
     "flagFile": "./flags/py.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -822,7 +822,7 @@ window.MANABI_DATA.countries = [
     "code": "pe",
     "flagFile": "./flags/pe.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -833,7 +833,7 @@ window.MANABI_DATA.countries = [
     "code": "sr",
     "flagFile": "./flags/sr.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -844,7 +844,7 @@ window.MANABI_DATA.countries = [
     "code": "uy",
     "flagFile": "./flags/uy.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -855,7 +855,7 @@ window.MANABI_DATA.countries = [
     "code": "ve",
     "flagFile": "./flags/ve.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -866,7 +866,7 @@ window.MANABI_DATA.countries = [
     "code": "gb",
     "flagFile": "./flags/gb.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -877,7 +877,7 @@ window.MANABI_DATA.countries = [
     "code": "ie",
     "flagFile": "./flags/ie.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -888,7 +888,7 @@ window.MANABI_DATA.countries = [
     "code": "fr",
     "flagFile": "./flags/fr.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -899,7 +899,7 @@ window.MANABI_DATA.countries = [
     "code": "de",
     "flagFile": "./flags/de.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -910,7 +910,7 @@ window.MANABI_DATA.countries = [
     "code": "it",
     "flagFile": "./flags/it.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -921,7 +921,7 @@ window.MANABI_DATA.countries = [
     "code": "es",
     "flagFile": "./flags/es.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -932,7 +932,7 @@ window.MANABI_DATA.countries = [
     "code": "pt",
     "flagFile": "./flags/pt.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -943,7 +943,7 @@ window.MANABI_DATA.countries = [
     "code": "nl",
     "flagFile": "./flags/nl.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -954,7 +954,7 @@ window.MANABI_DATA.countries = [
     "code": "be",
     "flagFile": "./flags/be.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -965,7 +965,7 @@ window.MANABI_DATA.countries = [
     "code": "lu",
     "flagFile": "./flags/lu.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -976,7 +976,7 @@ window.MANABI_DATA.countries = [
     "code": "ch",
     "flagFile": "./flags/ch.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -987,7 +987,7 @@ window.MANABI_DATA.countries = [
     "code": "at",
     "flagFile": "./flags/at.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -998,7 +998,7 @@ window.MANABI_DATA.countries = [
     "code": "se",
     "flagFile": "./flags/se.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1009,7 +1009,7 @@ window.MANABI_DATA.countries = [
     "code": "no",
     "flagFile": "./flags/no.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1020,7 +1020,7 @@ window.MANABI_DATA.countries = [
     "code": "dk",
     "flagFile": "./flags/dk.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1031,7 +1031,7 @@ window.MANABI_DATA.countries = [
     "code": "fi",
     "flagFile": "./flags/fi.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1042,7 +1042,7 @@ window.MANABI_DATA.countries = [
     "code": "is",
     "flagFile": "./flags/is.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1053,7 +1053,7 @@ window.MANABI_DATA.countries = [
     "code": "ee",
     "flagFile": "./flags/ee.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1064,7 +1064,7 @@ window.MANABI_DATA.countries = [
     "code": "lv",
     "flagFile": "./flags/lv.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1075,7 +1075,7 @@ window.MANABI_DATA.countries = [
     "code": "lt",
     "flagFile": "./flags/lt.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1086,7 +1086,7 @@ window.MANABI_DATA.countries = [
     "code": "pl",
     "flagFile": "./flags/pl.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1097,7 +1097,7 @@ window.MANABI_DATA.countries = [
     "code": "cz",
     "flagFile": "./flags/cz.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1108,7 +1108,7 @@ window.MANABI_DATA.countries = [
     "code": "sk",
     "flagFile": "./flags/sk.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1119,7 +1119,7 @@ window.MANABI_DATA.countries = [
     "code": "hu",
     "flagFile": "./flags/hu.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1130,7 +1130,7 @@ window.MANABI_DATA.countries = [
     "code": "ro",
     "flagFile": "./flags/ro.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1141,7 +1141,7 @@ window.MANABI_DATA.countries = [
     "code": "bg",
     "flagFile": "./flags/bg.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1152,7 +1152,7 @@ window.MANABI_DATA.countries = [
     "code": "si",
     "flagFile": "./flags/si.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1163,7 +1163,7 @@ window.MANABI_DATA.countries = [
     "code": "hr",
     "flagFile": "./flags/hr.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1174,7 +1174,7 @@ window.MANABI_DATA.countries = [
     "code": "ba",
     "flagFile": "./flags/ba.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1185,7 +1185,7 @@ window.MANABI_DATA.countries = [
     "code": "rs",
     "flagFile": "./flags/rs.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1196,7 +1196,7 @@ window.MANABI_DATA.countries = [
     "code": "me",
     "flagFile": "./flags/me.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1207,7 +1207,7 @@ window.MANABI_DATA.countries = [
     "code": "xk",
     "flagFile": "./flags/xk.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1218,7 +1218,7 @@ window.MANABI_DATA.countries = [
     "code": "al",
     "flagFile": "./flags/al.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1229,7 +1229,7 @@ window.MANABI_DATA.countries = [
     "code": "mk",
     "flagFile": "./flags/mk.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1240,7 +1240,7 @@ window.MANABI_DATA.countries = [
     "code": "gr",
     "flagFile": "./flags/gr.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1251,7 +1251,7 @@ window.MANABI_DATA.countries = [
     "code": "mt",
     "flagFile": "./flags/mt.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1262,7 +1262,7 @@ window.MANABI_DATA.countries = [
     "code": "cy",
     "flagFile": "./flags/cy.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1273,7 +1273,7 @@ window.MANABI_DATA.countries = [
     "code": "md",
     "flagFile": "./flags/md.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1284,7 +1284,7 @@ window.MANABI_DATA.countries = [
     "code": "ua",
     "flagFile": "./flags/ua.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1295,7 +1295,7 @@ window.MANABI_DATA.countries = [
     "code": "by",
     "flagFile": "./flags/by.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1306,7 +1306,7 @@ window.MANABI_DATA.countries = [
     "code": "ru",
     "flagFile": "./flags/ru.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1328,7 +1328,7 @@ window.MANABI_DATA.countries = [
     "code": "mc",
     "flagFile": "./flags/mc.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1339,7 +1339,7 @@ window.MANABI_DATA.countries = [
     "code": "sm",
     "flagFile": "./flags/sm.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1350,7 +1350,7 @@ window.MANABI_DATA.countries = [
     "code": "va",
     "flagFile": "./flags/va.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1361,7 +1361,7 @@ window.MANABI_DATA.countries = [
     "code": "li",
     "flagFile": "./flags/li.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1372,7 +1372,7 @@ window.MANABI_DATA.countries = [
     "code": "am",
     "flagFile": "./flags/am.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1383,7 +1383,7 @@ window.MANABI_DATA.countries = [
     "code": "az",
     "flagFile": "./flags/az.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1394,7 +1394,7 @@ window.MANABI_DATA.countries = [
     "code": "ge",
     "flagFile": "./flags/ge.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1405,7 +1405,7 @@ window.MANABI_DATA.countries = [
     "code": "ae",
     "flagFile": "./flags/ae.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1416,7 +1416,7 @@ window.MANABI_DATA.countries = [
     "code": "bh",
     "flagFile": "./flags/bh.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1427,7 +1427,7 @@ window.MANABI_DATA.countries = [
     "code": "ir",
     "flagFile": "./flags/ir.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1438,7 +1438,7 @@ window.MANABI_DATA.countries = [
     "code": "iq",
     "flagFile": "./flags/iq.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1449,7 +1449,7 @@ window.MANABI_DATA.countries = [
     "code": "il",
     "flagFile": "./flags/il.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1460,7 +1460,7 @@ window.MANABI_DATA.countries = [
     "code": "jo",
     "flagFile": "./flags/jo.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1471,7 +1471,7 @@ window.MANABI_DATA.countries = [
     "code": "kw",
     "flagFile": "./flags/kw.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1482,7 +1482,7 @@ window.MANABI_DATA.countries = [
     "code": "lb",
     "flagFile": "./flags/lb.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1493,7 +1493,7 @@ window.MANABI_DATA.countries = [
     "code": "om",
     "flagFile": "./flags/om.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1504,7 +1504,7 @@ window.MANABI_DATA.countries = [
     "code": "qa",
     "flagFile": "./flags/qa.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1526,7 +1526,7 @@ window.MANABI_DATA.countries = [
     "code": "sy",
     "flagFile": "./flags/sy.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1537,7 +1537,7 @@ window.MANABI_DATA.countries = [
     "code": "tr",
     "flagFile": "./flags/tr.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1548,7 +1548,7 @@ window.MANABI_DATA.countries = [
     "code": "ye",
     "flagFile": "./flags/ye.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1559,7 +1559,7 @@ window.MANABI_DATA.countries = [
     "code": "af",
     "flagFile": "./flags/af.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1570,7 +1570,7 @@ window.MANABI_DATA.countries = [
     "code": "dz",
     "flagFile": "./flags/dz.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1581,7 +1581,7 @@ window.MANABI_DATA.countries = [
     "code": "ao",
     "flagFile": "./flags/ao.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1592,7 +1592,7 @@ window.MANABI_DATA.countries = [
     "code": "bj",
     "flagFile": "./flags/bj.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1603,7 +1603,7 @@ window.MANABI_DATA.countries = [
     "code": "bw",
     "flagFile": "./flags/bw.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1614,7 +1614,7 @@ window.MANABI_DATA.countries = [
     "code": "bf",
     "flagFile": "./flags/bf.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1625,7 +1625,7 @@ window.MANABI_DATA.countries = [
     "code": "bi",
     "flagFile": "./flags/bi.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1636,7 +1636,7 @@ window.MANABI_DATA.countries = [
     "code": "cv",
     "flagFile": "./flags/cv.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1647,7 +1647,7 @@ window.MANABI_DATA.countries = [
     "code": "cm",
     "flagFile": "./flags/cm.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1658,7 +1658,7 @@ window.MANABI_DATA.countries = [
     "code": "cf",
     "flagFile": "./flags/cf.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1669,7 +1669,7 @@ window.MANABI_DATA.countries = [
     "code": "td",
     "flagFile": "./flags/td.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1680,7 +1680,7 @@ window.MANABI_DATA.countries = [
     "code": "km",
     "flagFile": "./flags/km.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1691,7 +1691,7 @@ window.MANABI_DATA.countries = [
     "code": "cg",
     "flagFile": "./flags/cg.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1702,7 +1702,7 @@ window.MANABI_DATA.countries = [
     "code": "cd",
     "flagFile": "./flags/cd.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1713,7 +1713,7 @@ window.MANABI_DATA.countries = [
     "code": "ci",
     "flagFile": "./flags/ci.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1724,7 +1724,7 @@ window.MANABI_DATA.countries = [
     "code": "dj",
     "flagFile": "./flags/dj.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1735,7 +1735,7 @@ window.MANABI_DATA.countries = [
     "code": "eg",
     "flagFile": "./flags/eg.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1746,7 +1746,7 @@ window.MANABI_DATA.countries = [
     "code": "gq",
     "flagFile": "./flags/gq.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1757,7 +1757,7 @@ window.MANABI_DATA.countries = [
     "code": "er",
     "flagFile": "./flags/er.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1768,7 +1768,7 @@ window.MANABI_DATA.countries = [
     "code": "sz",
     "flagFile": "./flags/sz.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1779,7 +1779,7 @@ window.MANABI_DATA.countries = [
     "code": "et",
     "flagFile": "./flags/et.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1790,7 +1790,7 @@ window.MANABI_DATA.countries = [
     "code": "ga",
     "flagFile": "./flags/ga.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1801,7 +1801,7 @@ window.MANABI_DATA.countries = [
     "code": "gm",
     "flagFile": "./flags/gm.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1812,7 +1812,7 @@ window.MANABI_DATA.countries = [
     "code": "gh",
     "flagFile": "./flags/gh.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1823,7 +1823,7 @@ window.MANABI_DATA.countries = [
     "code": "gn",
     "flagFile": "./flags/gn.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1834,7 +1834,7 @@ window.MANABI_DATA.countries = [
     "code": "gw",
     "flagFile": "./flags/gw.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1845,7 +1845,7 @@ window.MANABI_DATA.countries = [
     "code": "ke",
     "flagFile": "./flags/ke.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1856,7 +1856,7 @@ window.MANABI_DATA.countries = [
     "code": "ls",
     "flagFile": "./flags/ls.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1867,7 +1867,7 @@ window.MANABI_DATA.countries = [
     "code": "lr",
     "flagFile": "./flags/lr.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1878,7 +1878,7 @@ window.MANABI_DATA.countries = [
     "code": "ly",
     "flagFile": "./flags/ly.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1889,7 +1889,7 @@ window.MANABI_DATA.countries = [
     "code": "mg",
     "flagFile": "./flags/mg.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1900,7 +1900,7 @@ window.MANABI_DATA.countries = [
     "code": "mw",
     "flagFile": "./flags/mw.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1911,7 +1911,7 @@ window.MANABI_DATA.countries = [
     "code": "ml",
     "flagFile": "./flags/ml.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1922,7 +1922,7 @@ window.MANABI_DATA.countries = [
     "code": "mr",
     "flagFile": "./flags/mr.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1933,7 +1933,7 @@ window.MANABI_DATA.countries = [
     "code": "mu",
     "flagFile": "./flags/mu.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1944,7 +1944,7 @@ window.MANABI_DATA.countries = [
     "code": "ma",
     "flagFile": "./flags/ma.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1955,7 +1955,7 @@ window.MANABI_DATA.countries = [
     "code": "mz",
     "flagFile": "./flags/mz.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1966,7 +1966,7 @@ window.MANABI_DATA.countries = [
     "code": "na",
     "flagFile": "./flags/na.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1977,7 +1977,7 @@ window.MANABI_DATA.countries = [
     "code": "ne",
     "flagFile": "./flags/ne.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1988,7 +1988,7 @@ window.MANABI_DATA.countries = [
     "code": "ng",
     "flagFile": "./flags/ng.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -1999,7 +1999,7 @@ window.MANABI_DATA.countries = [
     "code": "rw",
     "flagFile": "./flags/rw.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -2010,7 +2010,7 @@ window.MANABI_DATA.countries = [
     "code": "st",
     "flagFile": "./flags/st.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -2021,7 +2021,7 @@ window.MANABI_DATA.countries = [
     "code": "sn",
     "flagFile": "./flags/sn.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -2032,7 +2032,7 @@ window.MANABI_DATA.countries = [
     "code": "sc",
     "flagFile": "./flags/sc.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -2043,7 +2043,7 @@ window.MANABI_DATA.countries = [
     "code": "sl",
     "flagFile": "./flags/sl.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -2054,7 +2054,7 @@ window.MANABI_DATA.countries = [
     "code": "so",
     "flagFile": "./flags/so.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -2065,7 +2065,7 @@ window.MANABI_DATA.countries = [
     "code": "za",
     "flagFile": "./flags/za.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -2076,7 +2076,7 @@ window.MANABI_DATA.countries = [
     "code": "ss",
     "flagFile": "./flags/ss.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -2087,7 +2087,7 @@ window.MANABI_DATA.countries = [
     "code": "sd",
     "flagFile": "./flags/sd.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -2098,7 +2098,7 @@ window.MANABI_DATA.countries = [
     "code": "tz",
     "flagFile": "./flags/tz.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -2109,7 +2109,7 @@ window.MANABI_DATA.countries = [
     "code": "tg",
     "flagFile": "./flags/tg.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -2120,7 +2120,7 @@ window.MANABI_DATA.countries = [
     "code": "tn",
     "flagFile": "./flags/tn.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -2131,7 +2131,7 @@ window.MANABI_DATA.countries = [
     "code": "ug",
     "flagFile": "./flags/ug.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -2142,7 +2142,7 @@ window.MANABI_DATA.countries = [
     "code": "zm",
     "flagFile": "./flags/zm.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   },
   {
@@ -2153,7 +2153,7 @@ window.MANABI_DATA.countries = [
     "code": "zw",
     "flagFile": "./flags/zw.svg",
     "capital": "",
-    "trivia": "世界の国旗しりとりで登場する国です。",
+    "trivia": "",
     "aliases": []
   }
 ];
@@ -2178,8 +2178,10 @@ window.MANABI_DATA.countries = [
   };
   for (const country of window.MANABI_DATA.countries) {
     country.difficulty = easy.has(country.id) ? 1 : intermediate.has(country.id) ? 2 : advanced.has(country.id) ? 3 : 4;
-    Object.assign(country, { population:'', populationYear:'', areaKm2:'', language:'', currency:'', famousFoods:[], famousPlaces:[], specialties:[] }, facts[country.id] || {});
+    Object.assign(country, { population:'', populationYear:'', areaKm2:'', language:'', currency:'', famousFoods:[], famousPlaces:[], specialties:[], flagMeaning:'', extraFacts:[], worldHeritage:[] }, facts[country.id] || {});
+    country.populationLabel = country.population ? (String(country.population).startsWith('約') ? String(country.population) : `約${country.population}`) : '';
+    country.areaLabel = country.areaKm2 ? `約${Number(country.areaKm2).toLocaleString('ja-JP')}km²` : '';
+    country.languages = country.languages || (country.language ? String(country.language).split(/、|など/).filter(Boolean) : []);
     country.hints = country.hints || [`${country.region}に位置する国です`,'国旗の色や図柄をよく観察してみましょう',`読みは${country.reading.length}文字です`];
-    if (country.trivia === '世界の国旗しりとりで登場する国です。') country.trivia = '';
   }
 })();
