@@ -14,7 +14,7 @@ assert.strictEqual(getThemeWords(global.MANABI_DATA, 'prefectures').length, 47);
 assert.deepStrictEqual(getThemeWords(global.MANABI_DATA, 'animals'), []);
 assert.deepStrictEqual(getThemeWords(global.MANABI_DATA, 'missing'), []);
 assert.strictEqual(getThemeStats(global.MANABI_DATA, 'prefectures').isPlayable, true);
-assert.strictEqual(getThemeStats(global.MANABI_DATA, 'countries').isPlayable, false);
+assert.strictEqual(getThemeStats(global.MANABI_DATA, 'countries').isPlayable, true);
 assert.strictEqual(validatePrefectureData(getThemeWords(global.MANABI_DATA, 'prefectures')).count, 47);
 assert.strictEqual(validateThemeData(getThemeWords(global.MANABI_DATA, 'foods')).count, 0);
 console.log('theme tests passed');

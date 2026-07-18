@@ -9,16 +9,20 @@ assert(html.includes("${state.show?'ヒントを隠す':'ヒントを見る'}"),
 assert(html.includes('state.show=!state.show'), 'hint button must toggle visibility instead of forcing it on');
 assert(html.includes('state.show=false;state.answer=pickAnswer()'), 'new questions must start with hidden country names');
 assert(!html.includes('state.show=true;renderGame()'), 'hint button must not only show country names');
+assert(html.includes('<script src="data/countries.js"></script>'), 'country data must be loaded once from data/countries.js');
+assert(!html.includes('const countries=['), 'index.html must not duplicate country data');
 
-const source = html.match(/const countries=([\s\S]*?\n\];)/)[1];
-const countries = vm.runInNewContext(source.replace(/;$/, ''));
+const context = { window: {} };
+context.window.window = context.window;
+vm.runInNewContext(fs.readFileSync('data/countries.js', 'utf8'), context);
+const countries = context.window.MANABI_DATA.countries;
 const byId = Object.fromEntries(countries.map(c => [c.id, c]));
 const stripMarks = s => s.normalize('NFD').replace(/[\u3099\u309A]/g, '').normalize('NFC');
 const small = {ぁ:'あ',ぃ:'い',ぅ:'う',ぇ:'え',ぉ:'お',ゃ:'や',ゅ:'ゆ',ょ:'よ',っ:'つ',ゎ:'わ'};
 const cleanRead = r => stripMarks(String(r)).replace(/ー/g, '').replace(/[ぁぃぅぇぉゃゅょっゎ]/g, c => small[c]);
 const first = r => cleanRead(r)[0];
 const last = r => cleanRead(r).slice(-1);
-const playableCountries = () => countries.filter(c => last(c.read) !== 'ん');
+const playableCountries = () => countries.filter(c => last(c.read) !== 'ん' && c.flag);
 const hasNextFrom = (country, used = [], allowUsed = false) => playableCountries().some(c => (allowUsed || !used.includes(c.id)) && c.id !== country.id && first(c.read) === last(country.read));
 
 assert.strictEqual(countries.length, 196, 'country count must be exactly 196');
@@ -31,13 +35,13 @@ assert.strictEqual(first(byId.turkey.read), 'と');
 assert.strictEqual(last(byId.denmark.read), 'く');
 assert.strictEqual(last(byId.japan.read), 'ん');
 
-for (const [field, label] of [['id', 'id'], ['name', 'display name']]) {
+for (const [field, label] of [['id', 'id'], ['name', 'display name'], ['flag', 'flag path']]) {
   const values = countries.map(c => c[field]);
   assert.strictEqual(new Set(values).size, values.length, `${label} values must be unique`);
 }
 for (const c of countries) {
   assert(c.read, `${c.id} reading must be nonempty`);
-  assert(c.svg && c.svg.includes('<svg'), `${c.id} svg must be nonempty`);
+  assert(c.flag && c.flag.endsWith(`${c.code}.svg`), `${c.id} flag path must be set`);
   assert(c.region, `${c.id} region must be set`);
   assert(first(c.read), `${c.id} first kana must be available`);
   assert(last(c.read), `${c.id} last kana must be available`);
@@ -55,7 +59,7 @@ function chooseAnswer(state) {
   return pool[0] || null;
 }
 function choicesFor(answer, need) {
-  const wrong = countries.filter(c => c.id !== answer.id && first(c.read) !== need).slice(0, 2);
+  const wrong = countries.filter(c => c.id !== answer.id && first(c.read) !== need && c.flag).slice(0, 2);
   return [answer, ...wrong];
 }
 for (const start of playableCountries().filter(c => hasNextFrom(c)).slice(0, 1000)) {
